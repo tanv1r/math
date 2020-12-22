@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{fouriernc}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Why $-3 \times -5 = 15$ ?}
+
+\subsection{Assuming negative numbers follow certain basic rules}
+
+To show $-3 \times -5 = 15$, we need the following assumptions:
+\begin{enumerate}
+\item Distributive property holds even for negative integers.
+\item For integers $a$ and $b$, if $a + b = 0$, then for a given $a$ there is exactly one choice for $b$. For example, if $4 + x = 0$ then $x$ can only be $-4$.
+\item $x \times 0 = 0$ holds even when x is a negative integer.
+\end{enumerate}
+
+
+We first need to prove $-3 \times 5 = -15$. Consider the below:
+\begin{displaymath}
+\begin{split}
+	-3 \times 5 + 15 & = -3 \times 5 + 3 \times 5\\
+	                 & = (-3 + 3) \times 5 \mbox{\ \ \ \ /*\ Using first assumption\ */}  \\
+	                 & = 0 \times 5\\
+	                 & = 0
+\end{split}
+\end{displaymath}
+
+So, $-3 \times 5$ is a number when added to $15$ gives $0$. From the second assumption we can thus say $-3 \times 5 = -15$.\\
+
+Now consider the below:
+\begin{displaymath}
+	\begin{split}
+	            0 & = -3 \times 0\mbox{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ /*\ Using third assumption\ */}  \\
+	            & = -3 \times (-5+5)\\
+	            & = (-3 \times -5) + (-3 \times 5) \mbox{\ \ \ \ /*\ Using first assumption\ */}  \\
+	            & = (-3 \times -5) + (-15)
+	\end{split}
+\end{displaymath}
+
+So, $-3 \times -5$ is a number when added to $-15$ gives $0$. From the second assumption, we can thus say $-3 \times -5 = 15$. $\blacksquare$
+
+\subsection{From pattern of series}
+
+Consider the below series:
+\begin{equation}
+	\ldots\ \ldots\ 1,\ 2,\ 3,\ 4,\ 5, \ \ldots\ \ldots
+\end{equation}
+Lets multiply the series by 3. Between each consecutive pair, the left one is $3$ less than the right one.
+\begin{equation}
+	\ldots\ \ldots\ 3,\ 6,\ 9,\ 12,\ 15, \ \ldots\ \ldots
+\end{equation}
+Lets reveal the second series more to the left.
+\begin{equation}
+	\ldots\ \ldots\ -15,\ -12,\ -9,\ -6,\ -3,\ 0,\ 3,\ 6,\ 9,\ 12,\ 15, \ \ldots\ \ldots
+\end{equation}
+We can now show a correspondence between the first and the third series which essentially is a correspondence between $x$ and $3x$.
+\[
+\begin{array}{rrrrrrrrrrrrrrr}
+\ldots & \ldots & -5 & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & 5 & \ldots & \ldots\\
+\updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow\\
+\ldots & \ldots & -15 & -12 & -9 & -6 & -3 & 0 & 3 & 6 & 9 & 12 & 15 & \ldots & \ldots
+\end{array}
+\]
+
+We see that $3 \times -5$ corresponds to $-15$, thus we can say $3 \times -5 = -15$.\\
+
+Now we do the same routine but this time we multiply the first series by $-3$ and get the fourth series below. Between every pair of consecutive integers, the left one is $3$ greater than the right one.
+\begin{equation}
+	\ldots\ \ldots\ -3,\ -6,\ -9,\ -12,\ -15, \ \ldots\ \ldots
+\end{equation}
+If we reveal the above series more towards left, we find below:
+\begin{equation}
+	\ldots\ \ldots\ 15,\ 12,\ 9,\ 6,\ 3,\ 0,\ -3,\ -6,\ -9,\ -12,\ -15\ \ldots\ \ldots
+\end{equation}
+Now we establishe the correspondence between first and the fifth series below, which actually is the correspondence between $x$ and $-3x$. 
+\[
+\begin{array}{rrrrrrrrrrrrrrr}
+\ldots & \ldots & -5 & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & 5 & \ldots & \ldots\\
+\updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow & \updownarrow\\
+\ldots & \ldots & 15 & 12 & 9 & 6 & 3 & 0 & -3 & -6 & -9 & -12 & -15 & \ldots & \ldots
+\end{array}
+\]
+Above, $-5$ corresponds to $15$, so we can say $-3 \times -5 = 15$. $\blacksquare$
+\end{document}
