@@ -94,5 +94,39 @@ a \cdot (b+d) - b \cdot (a+c) &= ab+ad - ab-bc\\
 \end{displaymath}
 
 \subsection*{Solution to Part c.}
+Once again we assume that $\frac{c}{d} < \frac{a}{b}$, thus $ad-bc = 1$. Say $\frac{e}{f}$ is a fraction that lies between $\frac{c}{d}$ and $\frac{a}{b}$, therefore $\frac{c}{d} < \frac{e}{f} < \frac{a}{b}$. We thus have two inequalities: $af > be$ and $de > cf$. Since $a, b, c, d, e, f$ are all positive integers, we could rewrite the two inequalities as: $af-be \geq 1$ and $de-cf \geq 1$.
+
+\begin{displaymath}
+\begin{split}
+	\frac{a}{b}-\frac{c}{d} &= \left( \frac{a}{b}-\frac{e}{f} \right) + \left( \frac{e}{f}-\frac{c}{d} \right)\\
+	\frac{ad-bc}{bd}&= \frac{af-be}{bf}+\frac{de-cf}{df}\\
+	\frac{1}{bd} &\geq \frac{1}{bf}+\frac{1}{df}\\
+	\frac{1}{bd} &\geq \frac{b+d}{bdf}\\
+	f &\geq b+d
+\end{split}
+\end{displaymath}
+So, for any fraction $\frac{e}{f}$ that lies between the pair of neighbor fractions $\frac{c}{d}$ and $\frac{a}{b}$, $f$ cannot be less than $b+d$.  $\blacksquare$
+
+In some sense $b+d$ is a hard limit on how low the denominator of such a fraction can get, signifying the closeness between the neighbor fractions themselves. In fact if we use the lowest value of $f$ therefore $f=b+d$ in the above inequality and go backwards we get $af-be = 1$ and $de-cf = 1$. We can then solve for $e$ as follows:
+\begin{displaymath}
+\begin{split}
+	af-be &= de-cf\\
+   (b+d)\cdot e &= (a+c)\cdot f\\
+       e  &= a+c
+\end{split}
+\end{displaymath}
+Seems like $\frac{a+c}{b+d}$ is the unique in-between fraction having the lowest possible denominator.
 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  22 DEC 2020 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  23 DEC 2020 04:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,16 +355,17 @@ Here is how much of TeX's memory you used:
  17001 multiletter control sequences out of 15000+600000
  563299 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,15n,29p,918b,156s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,16n,29p,918b,160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/shar
-e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/ncntrsbk/uncri8a.pfb>
-Output written on neighbor_fractions.pdf (3 pages, 42207 bytes).
+e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/ncntrsbk/uncri8a.pfb>
+Output written on neighbor_fractions.pdf (3 pages, 46676 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
