@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  23 DEC 2020 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  23 DEC 2020 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,11 +349,11 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./neighbor_fr
 actions.aux) ) 
 Here is how much of TeX's memory you used:
- 1740 strings out of 481239
- 21989 string characters out of 5920378
+ 1743 strings out of 481239
+ 22016 string characters out of 5920378
  259407 words of memory out of 5000000
  17001 multiletter control sequences out of 15000+600000
- 563299 words of font info for 67 fonts, out of 8000000 for 9000
+ 564648 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,16n,29p,943b,160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
@@ -362,7 +362,7 @@ share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share
 ve/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/ncntrsbk/uncri8a.pfb>
-Output written on neighbor_fractions.pdf (4 pages, 52637 bytes).
+Output written on neighbor_fractions.pdf (4 pages, 53186 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
