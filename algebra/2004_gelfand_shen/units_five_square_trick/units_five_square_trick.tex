@@ -1,0 +1,22 @@
+\documentclass[12pt]{article}
+
+\usepackage{fouriernc}
+\usepackage{amsmath}
+
+\begin{document}
+\section*{Problem-72}
+\subsection*{Problem Statement}
+There is a rule that allows us to square any number with the last digit $5$, namely, ``Drop this last digit out and get some $n$; multiply $n$ by $n+1$ and add the digits $2$ and $5$ to the end.'' For example, for $35^2$, we delete $5$ and get $3$, multiplying $3$ and $4$ we get $12$, adding ``$2$'' and ``$5$'' we get the answer: $1225$. Explain why this rule works.
+\subsection*{Solution}
+Let's say we want to find the square of an $n$ digits decimal number $d_{n-1}d_{n-2}\ldots d_{1}d_{0}$ with $d_{0}=5$. Following expansion justifies the rule:
+\begin{displaymath}
+\begin{split}
+	{d_{n-1}d_{n-2}\ldots d_{1}5}^2 &= \left( d_{n-1}d_{n-2}\ldots d_{1}0 + 5 \right)^2\\
+	                                &= {d_{n-1}d_{n-2}\ldots d_{1}0}^2 + 2\times d_{n-1}d_{n-2}\ldots d_{1}0 \times 5 + 25\\
+	                                &= d_{n-1}d_{n-2}\ldots d_{1}0 \times \left(d_{n-1}d_{n-2}\ldots d_{1}0+10\right)+25\\
+	                                &= d_{n-1}d_{n-2}\ldots d_{1}0 \times d_{n-1}d_{n-2}\ldots d_{1}'0+25\ \ \ \ \ [d_{1}' = d_{1}+1\ \textrm{with carry}]\\
+	                                &= d_{n-1}d_{n-2}\ldots d_{1} \times d_{n-1}d_{n-2}\ldots d_{1}' \times 100 + 25
+\end{split}
+\end{displaymath}
+Note, $d_{n-1}d_{n-2}\ldots d_{1}$ and $d_{n-1}d_{n-2}\ldots d_{1}'$ are consecutive integers.  $\blacksquare$
+\end{document}
