@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  31 DEC 2020 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  31 DEC 2020 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,12 +353,9 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (36.42592pt too wide) in paragraph at lines 76--77
-[]\T1/fnc/m/n/12 Java code that fol-lows, gives the be-low out-put for $[][]$
- []
-
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
 8.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -374,18 +371,18 @@ Overfull \hbox (60.66495pt too wide) in paragraph at lines 85--85
  []
 
 [2]
-Overfull \hbox (48.31796pt too wide) in paragraph at lines 127--127
+Overfull \hbox (48.31796pt too wide) in paragraph at lines 118--118
 []  \T1/cmtt/m/n/12 private static int[] multiply(int[] polynomial1, int[] poly
 nomial2) {[] 
  []
 
-[3]
-Overfull \hbox (48.31796pt too wide) in paragraph at lines 127--127
-[]      \T1/cmtt/m/n/12 System.out.print( String.format( "  + %d * x^%d", poly[
-i], i ) );[] 
+
+Overfull \hbox (60.66495pt too wide) in paragraph at lines 118--118
+[]        \T1/cmtt/m/n/12 System.out.print( String.format( "  + %d * x^%d", pol
+y[i], i ) );[] 
  []
 
-[4] [5] (./polynomial_warm_up.aux) ) 
+[3] [4] [5] (./polynomial_warm_up.aux) ) 
 Here is how much of TeX's memory you used:
  2060 strings out of 481239
  27641 string characters out of 5920378
@@ -393,16 +390,16 @@ Here is how much of TeX's memory you used:
  17315 multiletter control sequences out of 15000+600000
  563910 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,16n,29p,636b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/unc
-ri8a.pfb>
-Output written on polynomial_warm_up.pdf (5 pages, 80202 bytes).
+ 38i,16n,29p,636b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-su
+per/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk
+/uncri8a.pfb>
+Output written on polynomial_warm_up.pdf (5 pages, 78963 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
