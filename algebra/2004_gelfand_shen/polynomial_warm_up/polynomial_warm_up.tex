@@ -134,4 +134,25 @@ Java code that follows, gives the below output for $\left( 1+x+x^2+x^3+\ \ldots\
 \end{split}
 \end{displaymath}
 
+\subsubsection*{Solution to Part-g}
+\begin{displaymath}
+	\begin{split}
+		(a+b)\ \left( a^2 - ab + b^2 \right) &= a^3 -a^2b+ab^2+a^2b-ab^2+b^3\\
+											 &= a^3+b^3
+	\end{split}
+\end{displaymath}
+
+\subsubsection*{Solution to Part-h}
+We make the following three observations:
+\begin{enumerate}
+\item In the product, the coefficient of an odd power below $10$ is coming from the sum of even number of terms, where half of the terms have negative sign and half of the terms have positive sign. So, the product does not contain an odd power below $10$. For example, consider the coefficient of $x^7$. The eight tuples $(0, 7),\ (1,6),\ (2,5),\ (3,4),\ (4,3),\ (5,2),\ (6,1),\ \\ (7,0)$ contribute. Here the signs of the tuple alternate between positive and negative, the first one being postive. So, $(1,6),\ (3,4),\ (5,2),$ and $(7,0)$ have negative sign.
+\item In the product, the coefficient of an even power not exceeded $10$ is coming from the sum of odd number of terms, where lesser half of the terms have negative sign and greater half of the terms have positive sign. That leaves one positive term alive. So, in the product, all even powers not exceeding $10$ appear exactly once. For example, consider the coefficient of $x^8$. The nine tuples $(0,8),\ (1,7),\ (2,6),\ (3,5),\ (4,4),\ (5,3),\ (6,2),\\(7,1),(8,0)$ contribute. Here again the signs of the tuples alternate starting with positive. That leaves the last $(8,0)$ intact, all other vanish.
+\item As we noted in part-d, in the product, the coefficients to the left and to the right of $x^{10}$ are mirror reflections, for example $x^{13}$ on the right would have the same coefficient as $x^7$ on the left, thus $x^{13}$ also would not appear in the prouduct. The coefficient of $x^{12}$ on the right would match with the coefficient of $x^{8}$ on the left. Thus there will be exactly one $x^{12}$ in the product. 
+\end{enumerate}
+From the above observations, we have the product:
+\[
+1 + x^2 + x^4 + x^6 + x^8 + x^{10} + x^{12} + x^{14} + x^{16} + x^{18} + x^{20}
+\]
+
+
 \end{document}
