@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+\usepackage{fouriernc}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem-120}
+\subsection*{Problem Statement}
+Can you factor any other polynomial of the form $a^{2n} + b^{2n}$?
+
+\subsection*{Solution}
+We shall consider two separate cases: (1) when $n$ is even (2) when $n$ is odd.
+
+\subsubsection*{When $n$ is even, therefore $n$ has the form $2m$ with $m \geq 1$}
+
+\begin{equation*}
+	\begin{aligned}
+		a^{2n}+b^{2n} &= a^{4m}+b^{4m}\\
+					  &= \left( a^{2m} \right)^2 + \left( b^{2m} \right)^2\\
+					  &= \left( a^{2m} \right)^2 + 2\cdot a^{2m}\cdot b^{2m}+ \left( b^{2m} \right)^2 - 2\cdot a^{2m}\cdot b^{2m}\\
+					  &= \left( a^{2m}+b^{2m} \right)^2 - \left( \sqrt{2} \cdot a^m \cdot b^m \right)^2\\
+					  &= \left( a^{2m}+ \sqrt{2} \cdot a^m \cdot b^m + b^{2m} \right)\ \left( a^{2m} - \sqrt{2} \cdot a^m \cdot b^m + b^{2m} \right)
+	\end{aligned}
+\end{equation*}
+
+\subsubsection*{When $n$ is odd, therefore $n$ has the form $2m+1$ with $m \geq 0$}
+
+Let's consider some examples and try to generalize from them.
+\begin{itemize}
+\item When $m=0$ therefore $n=1$.
+\begin{equation*}
+	\begin{aligned}
+		a^2+b^2 &= a^2 - \left( -b^2 \right)\\
+				&= a^2 - \left( \sqrt{-1}\cdot b \right)^2\\
+				&= a^2 - (i\cdot b)^2\\
+				&= (a+i\cdot b)\ (a-i\cdot b)
+	\end{aligned}
+\end{equation*}
+
+\item When $m=1$ therefore $n=3$.
+Our polynomial in this case is $a^{6}+b^{6}$. We notice that if we set $a^2 = -b^2$, the polynomial evaluates to zero. So, we might be able to factor the polynomial into $\left(a^2+b^2\right)\ (\ \ldots\ )$. We thus try to extract $a^2+b^2$ from each pair of consecutive terms, introducing temporary terms as required.
+\begin{equation*}
+	\begin{aligned}
+		a^6+b^6 &= a^6 + a^4\cdot b^2 - a^4\cdot b^2 - a^2\cdot b^4 + a^2\cdot b^4 + b^6\\
+				&= a^4\cdot \left( a^2+b^2 \right) - a^2\cdot b^2\cdot \left( a^2+b^2 \right) + b^4\cdot \left( a^2+b^2 \right)\\
+				&= \left( a^2+b^2 \right)\ \left( a^4-a^2\cdot b^2+b^4 \right)
+	\end{aligned}
+\end{equation*}
+\item When $m=2$ therefore $n=5$.
+Our polynomial in this case is $a^{10}+b^{10}$. Again, setting $a^2=-b^2$ makes the polynomial zero. So, $a^2+b^2$ is a potential factor. We again try to extract $a^2+b^2$ from each pair of consecutive terms introducing temporary terms as required.
+\begin{equation*}
+	\begin{aligned}
+		& a^{10} + b^{10}\\
+		&=\ a^{10} + a^8\cdot b^2 - a^8\cdot b^2 - a^6\cdot b^4 + a^6\cdot b^4 + a^4\cdot b^6 - a^4\cdot b^6 - a^2\cdot b^8 + a^2\cdot b^8 + b^{10}\\
+		&= a^8 \cdot \left( a^2+b^2 \right) - a^6\cdot b^2\cdot \left( a^2+b^2\right) + a^4\cdot b^4\cdot \left( a^2+b^2 \right) - a^2\cdot b^6\cdot \left( a^2+b^2 \right) + b^8\cdot \left( a^2+b^2 \right)\\
+		&= \left( a^2+b^2 \right)\ \left( a^8 - a^6\cdot b^2 + a^4\cdot b^4 - a^2\cdot b^6 + b^8 \right)
+	\end{aligned}
+\end{equation*}
+\end{itemize}
+
+From the above three cases, we can generalize the factoring of $a^{2n}+b^{2n}$ when $n$ is odd as follows:
+\[
+a^{2n}+b^{2n} = \begin{cases} (a+i\cdot b)\ (a-i\cdot b) &\mbox{, when } n=1\\ \left( a^2+b^2 \right)\ \left( \sum_{k=0}^{n-1}\ (-1)^k\ \left[ a^{2(n-k)} \cdot b^{2k}\ +\ a^{2(n-k-1)}\cdot b^{2(k+1)} \right] \right) & \mbox{, otherwise} \end{cases}
+\]
+
+\end{document}
