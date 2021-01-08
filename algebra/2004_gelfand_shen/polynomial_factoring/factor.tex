@@ -72,9 +72,63 @@ From the above three cases, we can generalize the factoring of $a^{2n}+b^{2n}$ w
 \[
 a^{2n}+b^{2n} = \begin{cases} (a+i\cdot b)\ (a-i\cdot b) &\mbox{, when } n=1\\ \left( a^2+b^2 \right)\ \left( \sum_{k=0}^{n-1}\ (-1)^k\ a^{2(n-k-1)}\cdot b^{2k} \right) & \mbox{, otherwise} \end{cases}
 \]
+\pagebreak
+\section*{Problem-122(c)}
+\subsection*{Problem Statement}
+Factor $a^{10} + a^5 + 1$.
+\subsection*{Solution}
+\begin{equation*}
+	\begin{aligned}
+			& a^{10} + a^5 + 1\\
+			&= \left( a^5 \right)^2 + 2 \cdot a^5 \cdot \frac{1}{2} + \left( \frac{1}{2} \right)^2 + \frac{3}{4}\\
+			&= \left( a^5+\frac{1}{4} \right)^2 + \left( \frac{ \sqrt{3} }{2} \right)^2\\
+			&= \left( a^5 + \frac{i\cdot \sqrt{3}}{2} + \frac{1}{4} \right)\ \left( a^5 - \frac{i\cdot \sqrt{3}}{2} + \frac{1}{4} \right)\\
+			&= \left( a^5 + \frac{1 + 2\sqrt{3}\cdot i}{4} \right)\ \left( a^5 - \frac{1-2\sqrt{3}\cdot i}{4} \right)
+	\end{aligned}
+\end{equation*}
 
-%\section*{Problem-122}
+\section*{Problem-122(d)}
+\subsection*{Problem Statement}
+Factor $a^3 + b^3 + c^3 -3abc$.
+\subsection*{Solution}
+We note that setting $a=b=c$ makes the polynomial zero. A possible factor may be $a^2+b^2+c^2-ab-bc-ca$. So, from each set of consecutive six terms we shall extract out this potential factor, introducing temporary terms as necessary.
+\begin{equation*}
+	\begin{aligned}
+		& a^3 + b^3 + c^3 -3abc\\
+		&=\ \left(a^3+ab^2+ac^2-a^2b-abc-ca^2\right) + \left( a^2b+b^3+bc^2-ab^2-b^2c-abc \right) \\
+		&+ \left( ca^2 + b^2c + c^3 - abc - bc^2 - c^2a \right)\\
+		&= a\cdot \left( a^2+b^2+c^2-ab-bc-ca \right) + b\cdot \left( a^2+b^2+c^2-ab-bc-ca \right)\\
+		&+\ c\cdot \left( a^2+b^2+c^2-ab-bc-ca \right)\\
+		&= (a+b+c)\ \left( a^2+b^2+c^2-ab-bc-ca \right)
+	\end{aligned}
+\end{equation*}
+Yep, it looks like magic, pulling things out of thin air to make it work. But this is expected, since when we multiply factors of a polynomial (the reverse of factoring), we collect the similar terms and in that process some terms may vanish. It reminds me that differentiation is straightforward, integeration is hard. Here, multiplication of polynomials is easy, factoring a polynomial is hard.
 
+\section*{Problem-122(e)}
+\subsection*{Problem Statement}
+Factor $(a+b+c)^3 -a^3-b^3-c^3$.
+\subsection*{Solution}
+We note that setting $a=-b$ makes the polynomial zero. So, $a+b$ is a potential factor.
+\begin{equation*}
+	\begin{aligned}
+		& (a+b+c)^3 -a^3-b^3-c^3\\
+		&=\ \left( 3a^2b+3ab^2 \right) + \left( 3abc+3b^2c \right) + \left( 3a^2c+3abc \right) + \left( 3ac^2 + 3bc^2 \right)\\
+		&= 3ab\cdot (a+b) + 3bc\cdot (a+b) + 3ca\cdot (a+b) + 3c^2(a+b)\\
+		&= 3(a+b)\ \left(ab+bc+ca+c^2\right)\\
+		&= 3(a+b)\ [\ b(a+c)+c(a+c)\ ]\\
+		&= 3\ (a+b)\ (b+c)\ (c+a)
+	\end{aligned}
+\end{equation*}
+Actually there is nothing special about the pair $(a,b)$, all three pairs behave identically. We could set $b=-c$ or $c=-a$ to make the polynomial zero. Hence all three $a+b$, $b+c$, and $c+a$ are factors.
+
+\section*{Problem-122(f)}
+\subsection*{Problem Statement}
+Factor $(a-b)^3 + (b-c)^3 + (c-a)^3$.
+\subsection*{Solution}
+We note that setting $a=b$ or $b=c$ or $c=a$ makes the polynomial zero. So, possibly the polynomial has the form $k\cdot (a-b)\ (b-c)\ (c-a)$ where $k$ is some constant. Following similar procedure as in $122(e)$ we find below factors:
+\[
+	(a-b)^3 + (b-c)^3 + (c-a)^3 = 3\ (a-b)\ (b-c)\ (c-a)
+\]
 
 \end{document}
 
