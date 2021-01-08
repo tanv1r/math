@@ -59,9 +59,40 @@ Our polynomial in this case is $a^{10}+b^{10}$. Again, setting $a^2=-b^2$ makes 
 \end{equation*}
 \end{itemize}
 
+The factoring process for $n > 1$ looks like below:
+\begin{equation*}
+	\begin{aligned}
+	a^{2n}+b^{2n} &= \sum_{k=0}^{n-1}\ (-1)^k\ \left[ a^{2(n-k)} \cdot b^{2k}\ +\ a^{2(n-k-1)}\cdot b^{2(k+1)} \right]\\
+				  &= \sum_{k=0}^{n-1}\ (-1)^k\ a^{2(n-k-1)}\cdot b^{2k}\ \left[ a^2+b^2 \right]\\
+				  &= \left( a^2+b^2 \right)\ \left( \sum_{k=0}^{n-1}\ (-1)^k\ a^{2(n-k-1)}\cdot b^{2k} \right)
+	\end{aligned}
+\end{equation*}
+
 From the above three cases, we can generalize the factoring of $a^{2n}+b^{2n}$ when $n$ is odd as follows:
 \[
-a^{2n}+b^{2n} = \begin{cases} (a+i\cdot b)\ (a-i\cdot b) &\mbox{, when } n=1\\ \left( a^2+b^2 \right)\ \left( \sum_{k=0}^{n-1}\ (-1)^k\ \left[ a^{2(n-k)} \cdot b^{2k}\ +\ a^{2(n-k-1)}\cdot b^{2(k+1)} \right] \right) & \mbox{, otherwise} \end{cases}
+a^{2n}+b^{2n} = \begin{cases} (a+i\cdot b)\ (a-i\cdot b) &\mbox{, when } n=1\\ \left( a^2+b^2 \right)\ \left( \sum_{k=0}^{n-1}\ (-1)^k\ a^{2(n-k-1)}\cdot b^{2k} \right) & \mbox{, otherwise} \end{cases}
 \]
 
+\section*{Problem-122}
+
+
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
