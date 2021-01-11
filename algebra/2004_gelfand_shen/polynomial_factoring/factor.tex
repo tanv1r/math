@@ -131,6 +131,72 @@ We note that setting $a=b$ or $b=c$ or $c=a$ makes the polynomial zero. So, poss
 	(a-b)^3 + (b-c)^3 + (c-a)^3 = 3\ (a-b)\ (b-c)\ (c-a)
 \]
 
+\section*{Problem-134}
+\subsection*{Problem Statement}
+You know that $x + \frac{1}{x}$ is an integer. Prove that $x^n + \frac{1}{x^n}$ is an integer for any $n=1,2,3,$ etc.
+
+\subsection*{Solution}
+Let's work with some examples and try to generalize from them.
+\begin{itemize}
+\item When $n=2$, we need to show $x^2 + \frac{1}{x^2}$ is an integer.
+\begin{equation*}
+	\begin{aligned}
+		\left(x + \frac{1}{x}\right)^2 &= x^2 + 2 \cdot x \cdot \frac{1}{x} + \frac{1}{x^2}\\
+		&= x^2+2+\frac{1}{x^2}
+	\end{aligned}
+\end{equation*}
+So, we have $x^2+\frac{1}{x^2} = \left(x + \frac{1}{x}\right)^2-2$. Since $x + \frac{1}{x}$ is an integer, its square is also an integer. And, if we subtract $2$ from the square, the result will still be an integer.
+
+\item When $n=3$, we need to show $x^3 + \frac{1}{x^3}$ is an integer.
+\begin{equation*}
+	\begin{aligned}
+		\left(x + \frac{1}{x}\right)^3 &= x^3 + 3 \cdot x^2 \cdot \frac{1}{x} + 3 \cdot x \cdot \frac{1}{x^2} + \frac{1}{x^3}\\
+		&= x^3+\frac{1}{x^3} + 3\cdot \left( x + \frac{1}{x} \right)
+	\end{aligned}
+\end{equation*}
+We have $x^3 + \frac{1}{x^3} = \left(x + \frac{1}{x}\right)^3-3\cdot \left( x + \frac{1}{x} \right)$, which is an integer.
+
+\item When $n=4$, we need to show $x^4 + \frac{1}{x^4}$ is an integer. Using binomial theorem we can expand $\left(x + \frac{1}{x}\right)^4$ as follows:
+\begin{equation*}
+	\begin{aligned}
+		\left(x + \frac{1}{x}\right)^4 &= \sum_{k=0}^{4} \binom{4}{k}\ x^{4-k}\ \left( \frac{1}{x} \right)^k\\
+		&= x^4 + \binom{4}{1}x^3 \cdot \frac{1}{x} + \binom{4}{2}x^2\ \cdot \frac{1}{x^2} + \binom{4}{3}x \cdot \frac{1}{x^3} + \frac{1}{x^4}\\
+		&= x^4 + \frac{1}{x^4} + \binom{4}{1}\ \left( x^2 + \frac{1}{x^2} \right) + \binom{4}{2}\ \ \ \ \ \ \textrm{// Using}\ \binom{n}{k} = \binom{n}{n-k}
+	\end{aligned}
+\end{equation*}
+We have already shown that $x^2+\frac{1}{x^2}$ is an integer. 
+
+So $x^4 + \frac{1}{x^4} = \left(x + \frac{1}{x}\right)^4 - \binom{4}{1}\ \left( x^2 + \frac{1}{x^2} \right)- \binom{4}{2}$ is an integer.
+
+\item When $n=5$.
+\begin{equation*}
+	\begin{aligned}
+		\left( x + \frac{1}{x} \right)^5 &= \sum_{k=0}^5 \binom{5}{k} x^{5-k} \frac{1}{x^k}\\
+		&= x^5 + \frac{1}{x^5} + \binom{5}{1}\left( x^3 + \frac{1}{x^3} \right) + \binom{5}{2} \left( x + \frac{1}{x} \right)
+	\end{aligned}
+\end{equation*}
+\end{itemize}
+From the above examples, we see that if we expand $\left(x + \frac{1}{x}\right)^n$ we get terms like $x^m + \frac{1}{x^m}$ where $m \leq n$. This suggests using strong induction. To show $x^n + \frac{1}{x^n}$ is an integer, let's expand $\left(x+\frac{1}{x}\right)^n$.
+\begin{equation*}
+	\begin{aligned}
+		& \left(x+\frac{1}{x}\right)^n\\
+		&= \sum_{k=0}^n \binom{n}{k} x^{n-k} \frac{1}{x^{k}}\\
+		&= x^n + \frac{1}{x^n} + \sum_{k=1}^{n-1}\binom{n}{k}x^{n-k}\frac{1}{x^k}
+	\end{aligned}
+\end{equation*}
+When $n$ is odd, we can pair up the terms and write as follows:
+\[
+	\left(x+\frac{1}{x}\right)^n = x^n + \frac{1}{x^n} + \sum_{k=1}^{\frac{n-1}{2}}\binom{n}{k}\left( x^{n-2k} + \frac{1}{x^{n-2k}} \right)
+\]
+By strong induction we know $x^{n-2k} + \frac{1}{x^{n-2k}}$ are integers, thus $x^n + \frac{1}{x^n}$ is an integer.
+
+When $n$ is even, there are odd number of terms in the binomial expansion, with a lone center at $k = n-k$ which gives an integer $\binom{n}{n/2}$. Thus, for even $n$ we may write:
+\[
+	\left(x+\frac{1}{x}\right)^n = x^n + \frac{1}{x^n} + \sum_{k=1}^{\frac{n-1}{2}}\binom{n}{k}\left( x^{n-2k} + \frac{1}{x^{n-2k}} \right) + \binom{n}{n/2}
+\]
+
+Again, by strong induction we know $x^{n-2k} + \frac{1}{x^{n-2k}}$ are integers, thus $x^n + \frac{1}{x^n}$ is an integer.  $\blacksquare$
+
 \end{document}
 
 

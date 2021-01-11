@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  7 JAN 2021 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  11 JAN 2021 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,25 +354,25 @@ Overfull \hbox (55.1104pt too wide) detected at line 59
 [][]
  []
 
-[2] [3] [4] [5] (./factor.aux) ) 
+[2] [3] [4] [5] [6] [7] (./factor.aux) ) 
 Here is how much of TeX's memory you used:
- 1744 strings out of 481239
- 21946 string characters out of 5920378
- 255131 words of memory out of 5000000
+ 1752 strings out of 481239
+ 22014 string characters out of 5920378
+ 258131 words of memory out of 5000000
  17003 multiletter control sequences out of 15000+600000
- 563907 words of font info for 69 fonts, out of 8000000 for 9000
+ 568648 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,29p,408b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-m
-ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on factor.pdf (5 pages, 50468 bytes).
+ 38i,9n,29p,408b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/f
+ourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourie
+r-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on factor.pdf (7 pages, 57915 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
