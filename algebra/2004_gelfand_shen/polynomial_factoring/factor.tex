@@ -308,6 +308,88 @@ Let $P_{\Delta \Delta}(x)$ denote the ``second differences''.
 	\end{aligned}
 \end{equation*}
 
+\section*{Problem-157}
+\subsection*{Problem Statement}
+Prove that for any polynomial of degree $2$ all second differences are equal.
+\subsection*{Solution}
+Let $P(x) = ax^2 + bx + c$ denote a polynomial of degree $2$, where $a, b, c$ are constants. If $P_{\Delta}(x)$ denotes the ``first differences'', we have:
+\[
+	P_{\Delta}(x) = P(x+1)-P(x) = 2ax + a+b
+\]
+If $P_{\Delta \Delta}(x)$ represents ``second differences'', we have:
+\[
+	P_{\Delta \Delta}(x) = P_{\Delta}(x+1) - P_{\Delta}(x) = 2a
+\]
+
+\section*{Problem-158}
+\subsection*{Problem Statement}
+What can be said about polynomials having degree $3$?
+\subsection*{Solution}
+Third differences are equal.
+
+\section*{Problem-159}
+\subsection*{Problem Statement}
+(L. Euler) Compute the values $P(x) = x^2+x+41$ for $x=1,\ 2,\ 3,\ \ldots,\ 10$. Check that all these values are prime numbers (having no divisors except $1$ and themselves). Might it be that all of $P(1),\ P(2),\ P(3),\ \ldots$ are prime numbers for this polynomial $P$?
+\subsection*{Solution}
+Below {\tt Java} code shows that the values of $P(x)$ for $x=1,\ 2,\ 3,\ \ldots,\ 10$ are indeed prime.
+\begin{verbatim}
+  public static void main(String[] args) {
+    for (int x = 1; x <= 10; ++x) {
+      if ( isPrime( pOfX(x) ) ) {
+        System.out.println( String.format("P(%2d) = %3d is a prime.", x, pOfX(x)) );
+      } else {
+        System.out.println( String.format("P(%2d) = %3d is NOT a prime.", x, pOfX(x)) );
+      }
+    }
+  }
+  private static boolean isPrime(int pval) {
+    for (int d = 2; d < pval; ++d) {
+      if (pval % d == 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+  private static int pOfX(int x) {
+    return x*x + x + 41;
+  }
+P( 1) =  43 is a prime.
+P( 2) =  47 is a prime.
+P( 3) =  53 is a prime.
+P( 4) =  61 is a prime.
+P( 5) =  71 is a prime.
+P( 6) =  83 is a prime.
+P( 7) =  97 is a prime.
+P( 8) = 113 is a prime.
+P( 9) = 131 is a prime.
+P(10) = 151 is a prime.
+\end{verbatim}
+However, not all values of $P(x)$ are prime. Consider $P(40)$ for example.
+
+$P(40) = 40^2+40+41 = 41 \cdot 41$.
+\\
+
+This is a remarkable polynomial, nonetheless.
+\begin{table}[h!]
+  \begin{center}
+    \begin{tabular}{l|l}
+      \textbf{Range of x} & \textbf{P(x) is prime}\\
+      \hline
+      $1 \leq x \leq 39$ & 100\%\\
+      $1 \leq x \leq 100$ & 86\%\\
+      $1 \leq x \leq 200$ & 78\%\\
+      $1 \leq x \leq 300$ & 70\%\\
+      $1 \leq x \leq 400$ & 67.5\%\\
+      $1 \leq x \leq 500$ & 65\%\\
+      $1 \leq x \leq 600$ & 63.7\%\\
+      $1 \leq x \leq 700$ & 61.6\%\\
+      $1 \leq x \leq 800$ & 59.8\%\\
+      $1 \leq x \leq 900$ & 59\%\\
+      $1 \leq x \leq 1000$ & 58.1\%\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
 \end{document}
 
 
