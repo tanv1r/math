@@ -1,0 +1,23 @@
+\documentclass[12pt]{article}
+
+\usepackage{fouriernc}
+
+\begin{document}
+
+\section{A degree 2 polynomial seems to have three distinct roots, how?}
+Consider the below identity:
+\[
+\frac{ (x-a)\ (x-b) }{ (c-a)\ (c-b) } + \frac{ (x-a)\ (x-c) }{ (b-a)\ (b-c) } + \frac{ (x-b)\ (x-c) }{ (a-b)\ (a-c) } = 1
+\]
+
+We can rearrange:
+\[
+\frac{ (x-a)\ (x-b) }{ (c-a)\ (c-b) } + \frac{ (x-a)\ (x-c) }{ (b-a)\ (b-c) } + \frac{ (x-b)\ (x-c) }{ (a-b)\ (a-c) } - 1 = 0
+\]
+Now the left side of the above can be considered as a polynomial $P(x)$ with degree at most 2.
+\[
+P(x) = \frac{ (x-a)\ (x-b) }{ (c-a)\ (c-b) } + \frac{ (x-a)\ (x-c) }{ (b-a)\ (b-c) } + \frac{ (x-b)\ (x-c) }{ (a-b)\ (a-c) } - 1
+\]
+However, $a, b, c$ look like three distinct roots of $P(x)$. \textbf{ How?}
+
+\end{document}
