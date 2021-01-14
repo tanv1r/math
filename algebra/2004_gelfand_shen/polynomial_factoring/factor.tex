@@ -336,9 +336,11 @@ Below {\tt Java} code shows that the values of $P(x)$ for $x=1,\ 2,\ 3,\ \ldots,
   public static void main(String[] args) {
     for (int x = 1; x <= 10; ++x) {
       if ( isPrime( pOfX(x) ) ) {
-        System.out.println( String.format("P(%2d) = %3d is a prime.", x, pOfX(x)) );
+        System.out.println( 
+          String.format("P(%2d) = %3d is a prime.", x, pOfX(x)) );
       } else {
-        System.out.println( String.format("P(%2d) = %3d is NOT a prime.", x, pOfX(x)) );
+        System.out.println( 
+          String.format("P(%2d) = %3d is NOT a prime.", x, pOfX(x)) );
       }
     }
   }

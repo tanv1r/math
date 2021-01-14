@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  14 JAN 2021 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  14 JAN 2021 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,19 +388,19 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (128.57336pt too wide) in paragraph at lines 366--366
-[]        \T1/cmtt/m/n/12 System.out.println( String.format("P(%2d) = %3d is a 
-prime.", x, pOfX(x)) );[] 
+Overfull \hbox (17.4505pt too wide) in paragraph at lines 368--368
+[]          \T1/cmtt/m/n/12 String.format("P(%2d) = %3d is a prime.", x, pOfX(x
+)) );[] 
  []
 
 
-Overfull \hbox (153.26733pt too wide) in paragraph at lines 366--366
-[]        \T1/cmtt/m/n/12 System.out.println( String.format("P(%2d) = %3d is NO
-T a prime.", x, pOfX(x)) );[] 
+Overfull \hbox (42.14447pt too wide) in paragraph at lines 368--368
+[]          \T1/cmtt/m/n/12 String.format("P(%2d) = %3d is NOT a prime.", x, pO
+fX(x)) );[] 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
@@ -421,7 +421,7 @@ f-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist
 /cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/
 uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on factor.pdf (12 pages, 106795 bytes).
+Output written on factor.pdf (12 pages, 106811 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
