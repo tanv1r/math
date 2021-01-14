@@ -270,6 +270,44 @@ So, $1$ and $2$ are roots of $P(x)$.
 \\
 Solving $(1)$ and $(2)$ gives us: $(a, b) = \left( -\frac{8}{3}, \frac{2}{3} \right)$.
 
+\section*{Problem-156}
+\subsection*{Problem Statement}
+Let us write the values of $P(0),\ P(1),\ P(2),\ \ldots$ for $P(x) = x^2-x-4$.
+\[
+	-4,\ -4,\ -2,\ 2,\ 8,\ 16,\ 26,\ \ldots
+\]
+Under any two adjacent numbers write their difference:
+\[
+\begin{array}{lllllllllllll}
+	-4 &   & -4 &   & -2 &   & 2 &   & 8 &   & 16 &    & 26\ \ldots\\
+	   & 0 &    & 2 &    & 4 &   & 6 &   & 8 &    & 10\ \ldots &
+\end{array}
+\]
+and repeat the same operation with this sequence of ``first differences'':
+\[
+\begin{array}{lllllllllllll}
+	-4 &   & -4 &   & -2 &   & 2 &   & 8 &   & 16 &    & 26\ \dots\\
+	   & 0 &    & 2 &    & 4 &   & 6 &   & 8 &    & 10\ \ldots &   \\
+	   &   & \ \ 2 &   &\ \ 2 &   & 2 &   & 2 &   &\ \ 2\ \ldots &    &
+\end{array}
+\]
+Now all numbers are $2$ s. Prove that it is not a coincidence and that all subsequent numbers (called ``second differences'') are also $2$ s.
+\subsection*{Solution}
+If $P_{\Delta}(x)$ represents ``first differences'', we have:
+\begin{equation*}
+	\begin{aligned}
+		P_{\Delta}(x) &= P(x+1)-P(x)\\
+					  &= 2x
+	\end{aligned}
+\end{equation*}
+Let $P_{\Delta \Delta}(x)$ denote the ``second differences''.
+\begin{equation*}
+	\begin{aligned}
+		P_{\Delta \Delta} &= P_{\Delta}(x+1)-P_{\Delta}(x)\\
+		                  &= 2
+	\end{aligned}
+\end{equation*}
+
 \end{document}
 
 
