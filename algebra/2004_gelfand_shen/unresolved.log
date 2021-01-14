@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  14 JAN 2021 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  14 JAN 2021 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,109 +196,177 @@ LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks15
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks16
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks17
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
+\l__kernel_color_stack_int=\count187
+\l__pdf_internal_box=\box47
 )
 (./unresolved.aux)
 \openout1 = `unresolved.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 6.
 LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
- 5.
+ 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 6.
 LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 6.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-5.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 5.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 6.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 5.
+(Font)              scaled to size 11.15991pt on input line 6.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 7.
+(Font)              scaled to size 16.07027pt on input line 8.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 16.07027pt on input line 7.
+(Font)              scaled to size 16.07027pt on input line 8.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 9.
+(Font)              scaled to size 8.36993pt on input line 10.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 9.
+(Font)              scaled to size 6.50995pt on input line 10.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 9.
+(Font)              scaled to size 11.03998pt on input line 10.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 9.
+(Font)              scaled to size 8.27998pt on input line 10.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 9.
+(Font)              scaled to size 6.43999pt on input line 10.
 LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
-9.
+10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 9.
+(Font)              scaled to size 11.03998pt on input line 10.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 9.
+(Font)              scaled to size 8.27998pt on input line 10.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 9.
+(Font)              scaled to size 6.43999pt on input line 10.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 21.
- [1
+(Font)              scaled to size 11.15991pt on input line 22.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 8.36993pt on input line 27.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 6.50995pt on input line 27.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./unresolved.aux) ) 
 Here is how much of TeX's memory you used:
- 1095 strings out of 481239
- 14492 string characters out of 5920378
- 239995 words of memory out of 5000000
- 16383 multiletter control sequences out of 15000+600000
- 555564 words of font info for 57 fonts, out of 8000000 for 9000
+ 1724 strings out of 481239
+ 21657 string characters out of 5920378
+ 252139 words of memory out of 5000000
+ 16989 multiletter control sequences out of 15000+600000
+ 563480 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,4n,29p,187b,97s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,29p,280b,122s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/
 share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-
 dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/
-uncri8a.pfb>
-Output written on unresolved.pdf (1 page, 33199 bytes).
+rw/ncntrsbk/uncbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk
+/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb
+>
+Output written on unresolved.pdf (1 page, 42188 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

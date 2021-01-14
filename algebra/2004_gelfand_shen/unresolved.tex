@@ -1,10 +1,11 @@
 \documentclass[12pt]{article}
 
 \usepackage{fouriernc}
+\usepackage{amsmath}
 
 \begin{document}
 
-\section{A degree 2 polynomial seems to have three distinct roots, how?}
+\section*{A degree 2 polynomial seems to have three distinct roots, how?}
 Consider the below identity:
 \[
 \frac{ (x-a)\ (x-b) }{ (c-a)\ (c-b) } + \frac{ (x-a)\ (x-c) }{ (b-a)\ (b-c) } + \frac{ (x-b)\ (x-c) }{ (a-b)\ (a-c) } = 1
@@ -19,5 +20,10 @@ Now the left side of the above can be considered as a polynomial $P(x)$ with deg
 P(x) = \frac{ (x-a)\ (x-b) }{ (c-a)\ (c-b) } + \frac{ (x-a)\ (x-c) }{ (b-a)\ (b-c) } + \frac{ (x-b)\ (x-c) }{ (a-b)\ (a-c) } - 1
 \]
 However, $a, b, c$ look like three distinct roots of $P(x)$. \textbf{ How?}
+
+\section*{Problem-169}
+Assume that $x_1,\ \ldots,\ x_{10}$ are different numbers, and $y_1,\ \ldots,\ y_{10}$ are arbitrary numbers. Prove that there is one and only one polynomial $P(x)$ of degree not exceeding 9 such that $P(x_1) = y_1,\ P(x_2) = y_2,\ \ldots,\ P(x_{10}) = y_{10}$.\\
+
+\textbf{We get a set of 10 equations in 10 unknowns. As long as there is a solution, we have one polynomial. Uniqueness can be proved by reasoning about $\boldsymbol{R(x) = P(x)-Q(x)}$.}
 
 \end{document}
