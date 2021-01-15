@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  15 JAN 2021 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  15 JAN 2021 03:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,25 +684,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 [3]
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 11.15991pt on input line 111.
- [4] (./progression.aux) ) 
+ [4]
+LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
+(Font)              scaled to size 11.15991pt on input line 134.
+ [5] [6] [7] (./progression.aux) ) 
 Here is how much of TeX's memory you used:
- 12753 strings out of 481239
- 250898 string characters out of 5920378
- 461605 words of memory out of 5000000
- 27765 multiletter control sequences out of 15000+600000
- 563597 words of font info for 68 fonts, out of 8000000 for 9000
+ 12756 strings out of 481239
+ 250926 string characters out of 5920378
+ 463605 words of memory out of 5000000
+ 27766 multiletter control sequences out of 15000+600000
+ 566102 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,60p,534b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on progression.pdf (4 pages, 48403 bytes).
+ 60i,9n,60p,534b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier
+-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on progression.pdf (7 pages, 61906 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -110,6 +110,92 @@ Is it possible that an infinite arithmetic progression contains exactly two inte
 \subsection*{Solution}
 It is not possible. We shall use \textbf{proof by contradiction}. Therefore, we shall assume that exactly two terms of an infinite arithmetic progression are integers and that would lead us to a contradiction, completing the proof.
 
-Say $a+md = x$ and $a+nd = y$ are the only two integral terms where $a$ is the first term of the progression, $0 < m < n$, and $d$ is the difference. We notice that $(n-m)d = y-x$ is an integer. Now consider the term $y + (n-m)d = z$. $z$ must come after $y$, so $z$ is another term distinct from $x$ and $y$. By our assumption, $z$ must not be an integer. However, $y$ and $(n-m)d$ are both integers, so should be their sum, i.e., $z$. We have our contradiction. \contradiction 
+Say $a+md = x$ and $a+nd = y$ are the only two integral terms where $a$ is the first term of the progression, $0 < m < n$, and $d$ is the difference. We notice that $(n-m)d = y-x$ is an integer. Now consider the term $y + (n-m)d = z$. $z$ must come after $y$, so $z$ is another term distinct from $x$ and $y$. By our assumption, $z$ must not be an integer. However, $y$ and $(n-m)d$ are both integers, so should be their sum, i.e., $z$. We have our contradiction. \contradiction
+
+\section*{Problem-214}
+\subsection*{Problem Statement}
+In a geometric progression each term is equal to the sum of two preceeding terms. What can be said about the common ratio of this progression?
+
+\subsection*{Solution}
+Say $a \neq 0$ is the first term and $q \neq 0$ is the common ratio. Three consecutive terms in the progression would be $aq^n,\ aq^{n+1},$ and $aq^{n+2}$. We thus have:
+\begin{equation*}
+	\begin{aligned}
+		aq^{n+2} &= aq^{n+1} + aq^{n}\\
+		q^2 - q - 1 &= 0\\
+		q^2 - 2 \cdot q \cdot \frac{1}{2} + \frac{1}{4} - \frac{5}{4} &= 0\\
+		\left(q - \frac{1}{2}\right)^2 - \left( \frac{\sqrt{5}}{2} \right)^2 &= 0\\
+		\left( q - \frac{1+\sqrt{5}}{2} \right)\ \left( q - \frac{1-\sqrt{5}}{2} \right) &= 0
+	\end{aligned}
+\end{equation*}
+There are two possible values for the common ratio $q$: $\frac{1+\sqrt{5}}{2}$ and $\frac{1-\sqrt{5}}{2}$.
+
+\section*{Problem-215}
+\subsection*{Problem Statement}
+The \emph{Fibonacci sequence}
+\[
+	1,\ 1,\ 2,\ 3,\ 5,\ 8,\ 13,\ 21,\ \ldots
+\]
+is defined as follows: The first two terms are equal to 1, and each subsequent term is equal to the sum of the two preceeding terms. Find numbers $A$ and $B$ such that (for all $n$), the $n$th term of the Fibonacci sequence is equal to
+\[
+	A \left( \frac{1+\sqrt{5}}{2} \right)^n + B \left( \frac{1-\sqrt{5}}{2} \right)^n
+\]
+
+\subsection*{Solution}
+For $n=1,2$ the terms of the Fibonacci sequence are both 1. We shall use this observation to derive two equations and we should be able to find $A$ and $B$ as a solution-pair of the two equations. Then we shall use induction to show that those values of $A$ and $B$ once plugged into the formula for the $n$th term, work for all $n$.
+
+\subsubsection*{Find values of $A$ and $B$}
+From the first two terms ($n=1,2$) of the Fibonacci sequence, we have the below pair of equations.
+\setcounter{equation}{0}
+\begin{equation}
+	A \left( \frac{ 1+\sqrt{5} }{2} \right) + B \left( \frac{ 1-\sqrt{5} }{2} \right) = 1
+\end{equation}
+\begin{equation}
+	A \left( \frac{ 1+\sqrt{5} }{2} \right)^2 + B \left( \frac{ 1-\sqrt{5} }{2} \right)^2 = 1
+\end{equation}
+By massaging $(1)$ we get $(3)$ and by massaging $(2)$ we get $(4)$:
+\begin{equation}
+	A(1+\sqrt{5})^2 -4B = 2(1 + \sqrt{5})
+\end{equation}
+\begin{equation}
+	A(1+\sqrt{5})^2 + B(1 - \sqrt{5})^2 = 4
+\end{equation}
+From $(4)-(3)$ we get:
+\begin{equation*}
+	\begin{aligned}
+		B(1 - \sqrt{5})^2 + 4B &= 4-2(1 + \sqrt{5})\\
+		B &= \frac{ 2(1-\sqrt{5}) }{ -2\sqrt{5}(1-\sqrt{5}) }\\
+		B &= -\frac{1}{\sqrt{5}}
+	\end{aligned}
+\end{equation*}
+Plugging in $B = -\frac{1}{\sqrt{5}}$ in $(1)$ gives us:
+\begin{equation*}
+	\begin{aligned}
+		A\left( \frac{1+\sqrt{5}}{2} \right) -\frac{1}{\sqrt{5}}\left( \frac{1-\sqrt{5}}{2} \right) &= 1\\
+		A \left( \frac{1+\sqrt{5}}{2} \right) &= \frac{ 1+\sqrt{5} }{ 2\sqrt{5} }\\
+		A &= \frac{1}{\sqrt{5}}
+	\end{aligned}
+\end{equation*}
+So, the potential formula for the $n$th term of the Fibonacci sequence is as follows:
+\[
+	\frac{ 1 }{ \sqrt{5} } \left( \frac{ 1+\sqrt{5} }{2} \right)^n - \frac{1}{ \sqrt{5} } \left( \frac{1-\sqrt{5}}{2} \right)^n
+\]
+
+\subsubsection*{Prove that the formula works for all $n$}
+We already know that the formula works for $n=1,2$. We shall use these as our base cases. For $n > 2$ we shall use induction. Therefore, we shall show that adding $n$th and $(n+1)$th terms yields the $(n+2)$th term. For convenience, let's denote $\frac{ 1+\sqrt{5} }{2}$ by $\alpha$ and $\frac{ 1-\sqrt{5} }{2}$ by $\beta$. We make the below two observations:
+\[
+	\alpha^2 = 1+\alpha
+\]
+\[
+	\beta^2 = 1+\beta
+\]
+Now to complete induction, we add up $n$th and $(n+1)$th terms which should give us the $(n+2)$th term.
+\begin{equation*}
+	\begin{aligned}
+		& \left( \frac{1}{\sqrt{5}}\ \alpha^{n+1} - \frac{1}{\sqrt{5}}\ \beta^{n+1} \right) + \left( \frac{1}{\sqrt{5}}\ \alpha^n - \frac{1}{\sqrt{5}}\ \beta^n \right)\\
+		&= \frac{\alpha^n}{\sqrt{5}}\ (1+\alpha) - \frac{\beta^n}{\sqrt{5}}\ (1+\beta)\\
+		&= \frac{\alpha^n}{\sqrt{5}}\ \alpha^2 - \frac{\beta^n}{\sqrt{5}}\ \beta^2\\
+		&= \frac{1}{\sqrt{5}}\ \alpha^{n+2} - \frac{1}{\sqrt{5}}\ \beta^{n+2}\ \ \ \blacksquare
+	\end{aligned}
+\end{equation*}
 
 \end{document}
