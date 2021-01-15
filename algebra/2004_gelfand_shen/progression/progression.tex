@@ -3,6 +3,14 @@
 \usepackage{fouriernc}
 \usepackage{amsmath}
 
+\usepackage{tikz}
+
+\newcommand{\contradiction}{%
+\begin{tikzpicture}[rotate=45,x=0.5ex,y=0.5ex]
+\draw[line width=.2ex] (0,2) -- (3,2) (0,1) -- (3,1) (1,3) -- (1,0) (2,3) -- (2,0);
+\end{tikzpicture}
+}
+
 \begin{document}
 
 \section*{Problem-183}
@@ -50,5 +58,36 @@ Dividing $(1)$ by $(2)$, we have:
 	\frac{m-1}{n-1} = \frac{5}{9}
 \end{equation}
 Choosing $(m, n) = (6, 10)$ agrees with $(3)$. Using $m=6$ in $(1)$ gives $d = -\frac{1}{30}$. So, the numbers could be a part of the same arithmetic progression because, $\frac{1}{2} + 5\ \left( -\frac{1}{30} \right) = \frac{1}{3}$ and $\frac{1}{2} + 9 \ \left( -\frac{1}{30} \right) = \frac{1}{5}$. Hence, starting from $\frac{1}{2}$, the 5-th term is $\frac{1}{3}$ and the 9-th term is $\frac{1}{5}$. Actually, there are other valid choices like $(m, n, d) = \left( 11, 19, -\frac{1}{60} \right)$.
+
+\section*{Problem-205}
+\subsection*{Problem Statement}
+Is it possible that the numbers 2, 3, and 5 are (not necessarily adjacent) terms of a geometric progression?
+
+\subsection*{Solution}
+If the numbers belong to the same geometric progression, they must be sorted. Since the numbers are in increasing order in the question, we shall go with that order. So, for the sub-progression that starts at 2, we could consider 2 as the first term. We thus have the following:
+\setcounter{equation}{0}
+\begin{equation*}
+	\begin{aligned}
+		2 \cdot q^m &= 3\\
+		q^{mn} &= \frac{3^n}{2^n}
+	\end{aligned}
+\end{equation*}
+And,
+\begin{equation*}
+	\begin{aligned}
+		2 \cdot q^n &= 5\\
+		     q^{mn} &= \frac{5^m}{2^m}
+	\end{aligned}
+\end{equation*}
+Here $0 < m < n$ and $q$ is the ratio. We can then write:
+\begin{equation*}
+	\begin{aligned}
+		\frac{3^n}{2^n} &= \frac{5^m}{2^m}\\
+		3^n &= 2^{n-m} \cdot 5^m
+	\end{aligned}
+\end{equation*}
+On the left side we have an odd number and on the right side we have an even number. We have reached a contradiction. \contradiction\\
+
+Therefore, the numbers cannot be part of the same geometric progression. Note, we would reach a contradiction even if we considered the numbers in reverse order.
 
 \end{document}
