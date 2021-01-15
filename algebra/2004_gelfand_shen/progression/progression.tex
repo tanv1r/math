@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+
+\usepackage{fouriernc}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem-183}
+\subsection*{Problem Statement}
+The first term of an arithmetic progression is $a$, the 4th term is $b$. Find the second and the third terms.
+\subsection*{Solution}
+The $n$-th term of the arithmetic progression has the form $a+(n-1)d$ where $a$ is the first term ($n=1$) and $d$ is the difference. From the information given in the statement, we have:
+\[
+a + (4-1)d = b
+\]
+Thus $d = \frac{b-a}{3}$. So, the second term is $a+(2-1)d = a+\frac{b-a}{3} = \frac{2a+b}{3}$. The third term is $d$ more than the second term, that is, $\frac{a+2b}{3}$.
+
+\section*{Problem-198}
+\subsection*{Problem Statement}
+The first term of a geometric progression is $a$ and the third term is $b$. Find the second term.
+\subsection*{Solution}
+Say the second term is $x$. Then from the definition of a geometric progression, $\frac{x}{a} = \frac{b}{x}$. Therefore, $x^2 = ab$. If $ab < 0$, there is no real-valued $x$; in other words, there is no such real-valued geometric progression. For example, even if the ratio were negative like -1, the geometric progression would alternate the signs, so that first and third terms would still have the same sign. If $ab = 0$, then $x = 0$. If $ab > 0$, there are two possibilities for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.
+
+\section*{Problem-204}
+\subsection*{Problem Statement}
+Is it possible that numbers $\frac{1}{2}$, $\frac{1}{3}$, and $\frac{1}{5}$ are (not necessarily adjacent) terms of the same arithmetic progression?
+
+\subsection*{Solution}
+If the numbers come from the same arithmetic progression, then we can consider them as sorted. Since, in the question, the numbers are already in descending order, we shall go with that order. So, if the three numbers indeed come from the same arithmetic progression, the difference will turn out to be negative. We may consider $\frac{1}{2}$ as the first term of the sub-progression. We thus have:
+\begin{equation*}
+\begin{aligned}
+\frac{1}{2} + (m-1)\ d &= \frac{1}{3}\\
+\frac{1}{2} + (n-1)\ d &= \frac{1}{5}
+\end{aligned}
+\end{equation*}
+Where $m < n$ and $d\ (\neq 0)$ is the difference. We can rearrange and get the below two equations:
+\begin{equation}
+		(m-1)\ d = -\frac{1}{6}	
+\end{equation}
+\begin{equation}
+		(n-1)\ d = -\frac{3}{10}	
+\end{equation}
+Dividing $(1)$ by $(2)$, we have:
+\begin{equation}
+	\frac{m-1}{n-1} = \frac{5}{9}
+\end{equation}
+Choosing $(m, n) = (6, 10)$ agrees with $(3)$. Using $m=6$ in $(1)$ gives $d = -\frac{1}{30}$. So, the numbers could be a part of the same arithmetic progression because, $\frac{1}{2} + 5\ \left( -\frac{1}{30} \right) = \frac{1}{3}$ and $\frac{1}{2} + 9 \ \left( -\frac{1}{30} \right) = \frac{1}{5}$. Hence, starting from $\frac{1}{2}$, the 5-th term is $\frac{1}{3}$ and the 9-th term is $\frac{1}{5}$. Actually, there are other valid choices like $(m, n, d) = \left( 11, 19, -\frac{1}{60} \right)$.
+
+\end{document}
