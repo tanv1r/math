@@ -90,4 +90,26 @@ On the left side we have an odd number and on the right side we have an even num
 
 Therefore, the numbers cannot be part of the same geometric progression. Note, we would reach a contradiction even if we considered the numbers in reverse order.
 
+\section*{Problem-210}
+\subsection*{Problem Statement}
+Is it possible that the second term of a geometric progression is less than its first term and also less than its third term?
+
+\subsection*{Solution}
+Let's assume that the first three terms of the geometric progression are $a$, $aq$, and $aq^2$. When $a = 0$ or $q = 0$, the answer is negative. So, we shall now consider $a \neq 0$ and $q \neq 0$ case. We shall consider two separate possibilities.
+\begin{enumerate}
+\item When $a < 0$. If $aq < a$, then $q > 1$. If it is also true that $aq < aq^2$, then $q > q^2$. Both $q > 1$ and $q > q^2$ cannot be true at the same time.
+\item When $a > 0$. If $aq < a$, we have $q < 1$. If it is also true that $aq < aq^2$, then $q < q^2$. Both $q < 1$ and $q < q^2$ are possible for say $q = -1$.
+\end{enumerate}
+
+So, $1,\ -1,\ 1, \ldots$ is a possible geometric progression.
+
+\section*{Problem-212}
+\subsection*{Problem Statement}
+Is it possible that an infinite arithmetic progression contains exactly two integer terms?
+
+\subsection*{Solution}
+It is not possible. We shall use \textbf{proof by contradiction}. Therefore, we shall assume that exactly two terms of an infinite arithmetic progression are integers and that would lead us to a contradiction, completing the proof.
+
+Say $a+md = x$ and $a+nd = y$ are the only two integral terms where $a$ is the first term of the progression, $0 < m < n$, and $d$ is the difference. We notice that $(n-m)d = y-x$ is an integer. Now consider the term $y + (n-m)d = z$. $z$ must come after $y$, so $z$ is another term distinct from $x$ and $y$. By our assumption, $z$ must not be an integer. However, $y$ and $(n-m)d$ are both integers, so should be their sum, i.e., $z$. We have our contradiction. \contradiction 
+
 \end{document}
