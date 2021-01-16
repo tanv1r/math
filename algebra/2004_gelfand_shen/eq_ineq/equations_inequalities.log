@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  16 JAN 2021 03:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  16 JAN 2021 03:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -692,7 +692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[3] (./equations_inequalities.aux) ) 
+[3] [4] (./equations_inequalities.aux) ) 
 Here is how much of TeX's memory you used:
  12777 strings out of 481239
  251408 string characters out of 5920378
@@ -700,17 +700,17 @@ Here is how much of TeX's memory you used:
  27785 multiletter control sequences out of 15000+600000
  563907 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,60p,403b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fouri
-er-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on equations_inequalities.pdf (3 pages, 42932 bytes).
+ 60i,7n,60p,431b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/f
+ourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourie
+r-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on equations_inequalities.pdf (4 pages, 45393 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

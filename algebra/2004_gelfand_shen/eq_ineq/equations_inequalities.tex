@@ -99,4 +99,20 @@ Basically we are being asked to show that $\frac{ \sqrt{a} }{ \sqrt{b} }$ is the
 	\end{equation*}		
 \end{itemize}
 
+\section*{Problem-230}
+\subsection*{Problem Statement}
+Is the equality $\sqrt{ a^2 } = a$ true for all $a$?
+
+\subsection*{Solution}
+It might seem counter-intuitive that the answer is no. But if we observe closely, the question is actually asking about the equality $+\sqrt{ a^2 } = a$, where the `+' is implied. When we make the `+' explicit, it is more noticeable that for $a < 0$, the equality cannot hold, because the left side of the equality is always positive. The  equality that works for all $a$ is $\sqrt{ a^2 } = |a|$, where
+\[
+	|a| = 
+		\begin{cases}
+		   \ \ a &\mbox{, if } a \geq 0\\
+		   -a &\mbox{, if } a < 0
+		\end{cases}
+\]
+
+It is unfortunate that we do not always make the `+' explicit.
+
 \end{document}
