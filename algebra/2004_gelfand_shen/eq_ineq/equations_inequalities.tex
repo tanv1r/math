@@ -79,4 +79,24 @@ On the left side we have an odd integer and on the right side we have an even in
 \item $a$ and $b$ both are even integer. In this case, $a$ and $b$ must have 2 as a common factor. We can divide both $a$ and $b$ by 2. We can keep dividing by 2 as long as both remain even integer. At the end, we are in one of the previous three cases.
 \end{enumerate}
 
+\section*{Problem-229}
+\subsection*{Problem Statement}
+Prove that for $a \geq 0,\ b > 0$
+\[
+	\sqrt{ \frac{a}{b} } = \frac{ \sqrt{a} }{ \sqrt{b} }
+\]
+
+\subsection*{Solution}
+Basically we are being asked to show that $\frac{ \sqrt{a} }{ \sqrt{b} }$ is the square root of the non-negative integer $\frac{a}{b}$. So, we need to prove the below two:
+\begin{itemize}
+	\item $\frac{ \sqrt{a} }{ \sqrt{b} }$ is non-negative.\\
+	
+	Since $a$ is non-negative, its square root must also be non-negative. Since $b$ is positive, its square root must also be positive. $\frac{ \sqrt{a} }{ \sqrt{b} }$ is thus the ratio of a non-negative number and a positive number; so, it must be non-negative.
+	\item Squaring $\frac{ \sqrt{a} }{ \sqrt{b} }$ gives us $\frac{a}{b}$.
+
+	\begin{equation*}
+			\left( \frac{ \sqrt{a} }{ \sqrt{b} } \right)^2 = \frac{ (\sqrt{a})^2 }{ (\sqrt{b})^2 } = \frac{a}{b}.
+	\end{equation*}		
+\end{itemize}
+
 \end{document}

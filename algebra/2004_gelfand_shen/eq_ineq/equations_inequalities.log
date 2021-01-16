@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  16 JAN 2021 03:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  16 JAN 2021 03:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,25 +678,39 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 11.15991pt on input line 41.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./equations_inequ
-alities.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 9
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
+File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
+)
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 92.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[3] (./equations_inequalities.aux) ) 
 Here is how much of TeX's memory you used:
- 12750 strings out of 481239
- 250981 string characters out of 5920378
+ 12777 strings out of 481239
+ 251408 string characters out of 5920378
  463638 words of memory out of 5000000
- 27765 multiletter control sequences out of 15000+600000
- 562248 words of font info for 65 fonts, out of 8000000 for 9000
+ 27785 multiletter control sequences out of 15000+600000
+ 563907 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,60p,403b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
-share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on equations_inequalities.pdf (3 pages, 38382 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dv
+ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fouri
+er-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on equations_inequalities.pdf (3 pages, 42932 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
