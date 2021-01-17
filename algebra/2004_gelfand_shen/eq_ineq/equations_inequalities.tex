@@ -115,4 +115,21 @@ It might seem counter-intuitive that the answer is no. But if we observe closely
 
 It is unfortunate that we do not always make the `+' explicit.
 
+\section*{Problem-232}
+\subsection*{Problem Statement}
+Which is bigger: $\sqrt{1001} - \sqrt{1000}$ or $\frac{1}{10}$?
+\subsection*{Solution}
+It would be easier to compare if we could convert $\sqrt{1001} - \sqrt{1000}$ into a fraction.
+\begin{equation*}
+	\begin{aligned}
+		& \sqrt{1001} - \sqrt{1000}\\
+		&= \frac{ \left(\sqrt{1001} - \sqrt{1000}\right)\ \left(\sqrt{1001} + \sqrt{1000}\right) }{ \sqrt{1001} + \sqrt{1000} }\\
+		&= \frac{ \left( \sqrt{1001} \right)^2 - \left( \sqrt{1000} \right)^2 }{ \sqrt{1001} + \sqrt{1000} }\\
+		&= \frac{1001 - 1000}{ \sqrt{1001} + \sqrt{1000} }\\
+		&= \frac{1}{ \sqrt{1001} + \sqrt{1000} }\\
+		&< \frac{1}{ \sqrt{900} + \sqrt{900} }
+	\end{aligned}
+\end{equation*}
+Since $\sqrt{900} + \sqrt{900} = 60$, $\sqrt{1001} - \sqrt{1000} < \frac{1}{60} < \frac{1}{10}$. So, $\frac{1}{10}$ is the bigger between the two.
+
 \end{document}
