@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  17 JAN 2021 04:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  17 JAN 2021 04:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,7 +697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-[6] [7] (./equations_inequalities.aux) ) 
+[6] [7] [8] (./equations_inequalities.aux) ) 
 Here is how much of TeX's memory you used:
  12778 strings out of 481239
  251414 string characters out of 5920378
@@ -706,17 +706,17 @@ Here is how much of TeX's memory you used:
  564839 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,60p,431b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/f
-ourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourie
-r-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on equations_inequalities.pdf (7 pages, 60502 bytes).
+{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fouri
+er/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fo
+urier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourie
+r-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on equations_inequalities.pdf (8 pages, 62800 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

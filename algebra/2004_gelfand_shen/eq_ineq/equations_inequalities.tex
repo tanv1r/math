@@ -228,6 +228,46 @@ In the second case of $0.0.1$ we also have $p^2-4q = 0$; thus $q = \frac{p^2}{4}
 \subsubsection{Proof-2}
 Since $x^2+px+q = 0$ has two duplicate solutions, we can consider $P(x) = x^2 + px + q$ having two repeated roots, each equal to $\alpha$. Thus $P(x) = (x-\alpha)\ (x-\alpha)$. In other words, $P(x) = x^2 - 2\alpha + \alpha^2$. A comparison gives us Vieta's theorem.
 
+
+\section*{Problem-240}
+\subsection*{Problem Statement}
+(Vieta's theorem for a cubic equation) Assume that a cubic equation $x^3 + px^2 + qx + r = 0$ has three different roots $\alpha,\ \beta,\ \gamma$. Prove that
+\begin{equation*}
+	\begin{aligned}
+		\alpha + \beta + \gamma &= -p\\
+		\alpha \beta + \alpha \gamma + \beta \gamma &= q\\
+		\alpha \beta \gamma &= -r
+	\end{aligned}
+\end{equation*}
+
+\subsection{Solution}
+The polynomial $P(x) = x^3 + px^2 + qx + r$ can be written as
+\[
+	P(x) = (x - \alpha)\ (x - \beta)\ (x - \gamma)\ R(x)
+\]
+To match the coefficient of $x^3$, $R(x)$ must be 1. Therefore,
+\begin{equation*}
+		\begin{aligned}
+			P(x) &= (x - \alpha)\ (x - \beta)\ (x - \gamma)\\
+				 &= x^3 - (\alpha + \beta + \gamma)\ x^2 + ( \alpha \cdot \beta + \alpha \cdot \gamma + \beta \cdot \gamma )\ x - \alpha\cdot \beta\cdot \gamma
+		\end{aligned}
+\end{equation*}
+On comparing against $P(x) = x^3 + px^2 + qx + r$ we have
+\begin{equation*}
+	\begin{aligned}
+		\alpha + \beta + \gamma &= -p\\
+		\alpha \beta + \alpha \gamma + \beta \gamma &= q\\
+		\alpha \beta \gamma &= -r
+	\end{aligned}
+\end{equation*}
+
+
+
+
+
+
+
+
 \end{document}
 
 
