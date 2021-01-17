@@ -132,4 +132,121 @@ It would be easier to compare if we could convert $\sqrt{1001} - \sqrt{1000}$ in
 \end{equation*}
 Since $\sqrt{900} + \sqrt{900} = 60$, $\sqrt{1001} - \sqrt{1000} < \frac{1}{60} < \frac{1}{10}$. So, $\frac{1}{10}$ is the bigger between the two.
 
+\section*{Problem-239}
+\subsection*{Problem Statement}
+\subsubsection{Solutions to quadratic equation}
+A quadratic equation $x^2+px+q = 0$ can be solved by ``completing the square''.
+\begin{equation*}
+	\begin{aligned}
+		x^2 + 2 \cdot x \cdot \frac{p}{2} + \left( \frac{p}{2} \right)^2 + \left( q - \frac{p^2}{4} \right) &= 0\\
+		\left( x+\frac{p}{2} \right)^2 &= \frac{p^2}{4} - q\\
+		x &= -\frac{p}{2} + \frac{ \pm \sqrt{p^2 - 4q} }{2}
+	\end{aligned}
+\end{equation*}
+There are three possible cases:
+\begin{enumerate}
+	\item $p^2-4q > 0$. In this case two distinct solutions $x_1,\ x_2$ exist: 
+	
+	$x_1 = -\frac{p}{2} + \frac{ \sqrt{ p^2-4q } }{2}$ and $x_2 = -\frac{p}{2} - \frac{ \sqrt{ p^2-4q } }{2}$
+	\item $p^2-4q = 0$. In this case the two solutions coincide; therefore, there is one distinct solution.
+	
+	$x_1 = -\frac{p}{2}$ and $x_2 = -\frac{p}{2}$
+	\item $p^2-4q < 0$. In this case there is no real-valued solution.
+\end{enumerate}
+Since the sign of $p^2-4q$ determines how many distinct solutions there are, for convenience, we shall call this expression $D$, therefore, $D = p^2-4q$.
+
+\subsubsection{Vieta's theorem}
+If a quadratic equation $x^2 + px + q = 0$, has two distinct solutions $\alpha$ and $\beta$ then
+\[
+	\alpha + \beta = -p
+\]
+\[
+	\alpha \cdot \beta = q
+\]
+
+\subsubsection{Proof-1 of Vieta's theorem}
+If $x^2 + px + q = 0$ has two distinct solutions, we are in the first case of $0.0.1$; thus we can let $\alpha$ and $\beta$ be as follows:
+\setcounter{equation}{0}
+\begin{equation}
+	\alpha = -\frac{p}{2} + \frac{ \sqrt{ D } }{2}
+\end{equation}
+\begin{equation}
+	\beta = -\frac{p}{2} - \frac{ \sqrt{ D } }{2}
+\end{equation}
+$(1)+(2)$ gives:
+\[
+	\alpha + \beta = -p
+\]
+$(1) \times (2)$ gives:
+\begin{equation*}
+	\begin{aligned}
+		\alpha \cdot \beta &= \frac{p^2}{4} - \frac{D}{4}\\
+						   &= \frac{ p^2 - \left( p^2-4q \right) }{4}\\
+						   &= q
+	\end{aligned}
+\end{equation*}
+
+\subsubsection{Proof-2 of Vieta's theorem}
+We can rewrite $x^2 + px + q = 0$ as $P(x) = 0$ where $P(x) = x^2 + px + q$ is a polynomial with degree two. If $\alpha$ and $\beta$ are two distinct solutions of $P(x) = 0$ then
+\[
+	P(x) = (x-\alpha)\ (x-\beta)\ R(x)
+\]
+Here $R(x)$ must be constant, otherwise right side would have degree more than two. In fact $R(x)$ must be exactly 1, otherwise the coefficient of $x^2$ would not match with the one in $P(x)$. So, we have
+\begin{equation*}
+	\begin{aligned}
+		P(x) &= (x - \alpha)\ (x - \beta)\\
+			 &= x^2 -(\alpha + \beta)\ x + \alpha \cdot \beta
+	\end{aligned}
+\end{equation*}
+Comparing $P(x) = x^2 + (\ -(\alpha+\beta)\ )\ x + \alpha \cdot \beta$ with $P(x) = x^2 + px + q$ gives us Vieta's theorem.
+
+\subsubsection{Questions to answer}
+Can you generalize Vieta's theorem to the case of a quadratic equation having only one root? Are both proofs still valid for this case?
+
+\subsection{Solution}
+\subsubsection{Generalization}
+Generalized version of Vieta's theorem is:\\
+
+If a quadratic equation $x^2 + px + q = 0$ has two roots $\alpha$ and $\beta$ (the roots can be equal) then
+\[
+	\alpha + \beta = -p
+\]
+\[
+	\alpha \cdot \beta = q
+\]
+
+\subsubsection{Proof-1}
+Vieta's generalized theorem already works for the first case of $0.0.1$. We shall show that it works for the second case as well. In the second case of $0.0.1$, $\alpha = \beta = -\frac{p}{2}$.
+\[
+	\alpha + \beta = 2\alpha = 2 \left( -\frac{p}{2} \right) = -p
+\]
+In the second case of $0.0.1$ we also have $p^2-4q = 0$; thus $q = \frac{p^2}{4}$.
+\[
+	\alpha \cdot \beta = \alpha^2 = \frac{p^2}{4} = q
+\]
+
+\subsubsection{Proof-2}
+Since $x^2+px+q = 0$ has two duplicate solutions, we can consider $P(x) = x^2 + px + q$ having two repeated roots, each equal to $\alpha$. Thus $P(x) = (x-\alpha)\ (x-\alpha)$. In other words, $P(x) = x^2 - 2\alpha + \alpha^2$. A comparison gives us Vieta's theorem.
+
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
