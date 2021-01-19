@@ -2,6 +2,9 @@
 
 \usepackage{fouriernc}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{extarrows}
+\usepackage[shortlabels]{enumitem}
 
 \usepackage{tikz}
 
@@ -261,12 +264,36 @@ On comparing against $P(x) = x^3 + px^2 + qx + r$ we have
 	\end{aligned}
 \end{equation*}
 
+\section*{Problem-259}
+\subsection*{Problem Statement}
+Starting with the graph for $y = x^2$ we can get the graph for $y = a(x+m)^2 + n$ as follows:
+\begin{enumerate}[label=(\alph*)]
+	\item Stretching it vertically $a$ times gives us the graph for $y = ax^2$
+	\item Moving the resulting graph $m$ units to the left gives us the graph for $y = a(x+m)^2$
+	\item Moving the resulting graph $n$ units up gives us the graph for 
+	
+	$y = a(x+m)^2 + n$
+\end{enumerate}
 
+There are six possible orderings of operations (a), (b), and (c). Do we get six different graphs or do some of the graphs coincide?
 
+\subsection*{Solution}
+We do not get six different graphs. The six graphs fall into two distinct groups: one for the function $y = a(x+m)^2+n$ and the other for the function $y = a(x+m)^2+an$. The order of $(b)$ and $(c)$ does not matter. Which of these two groups a graph falls into, depends on the order of (a) and (c). If (c) follows (a), we get the graph for the function $y = a(x+m)^2+n$. On the other hand, if (a) follows (c), we get the graph for the function $y = a(x+m)^2+an$.
 
-
-
-
+\begin{enumerate}[1.]
+	\item (c) follows (a):
+		\begin{enumerate}[i.]
+			\item $y=x^2 \xLongrightarrow{\text{(a)}} y = ax^2 \xLongrightarrow{\text{(b)}} y = a(x+m)^2 \xLongrightarrow{\text{(c)}} y = a(x+m)^2+n$
+			\item $y=x^2 \xLongrightarrow{\text{(a)}} y=ax^2 \xLongrightarrow{\text{(c)}} y=ax^2 + n \xLongrightarrow{\text{(b)}} y=a(x+m)^2+n$
+			\item $y=x^2 \xLongrightarrow{\text{(b)}} y=(x+m)^2 \xLongrightarrow{\text{(a)}} y=a(x+m)^2 \xLongrightarrow{\text{(c)}} y=a(x+m)^2+n$	
+		\end{enumerate}
+	\item (a) follows (c):
+		\begin{enumerate}[i.]
+			\item $y=x^2 \xLongrightarrow{\text{(b)}} y=(x+m)^2 \xLongrightarrow{\text{(c)}} y=(x+m)^2+n \xLongrightarrow{\text{(a)}} y=a(x+m)^2+an$
+			\item $y=x^2 \xLongrightarrow{\text{(c)}} y=x^2+n \xLongrightarrow{\text{(a)}} y=ax^2+an \xLongrightarrow{\text{(b)}} y=a(x+m)^2+an$
+			\item $y=x^2 \xLongrightarrow{\text{(c)}} y=x^2+n \xLongrightarrow{\text{(b)}} y=(x+m)^2+n \xLongrightarrow{\text{(a)}} y=a(x+m)^2+an$
+		\end{enumerate}
+\end{enumerate}
 
 \end{document}
 

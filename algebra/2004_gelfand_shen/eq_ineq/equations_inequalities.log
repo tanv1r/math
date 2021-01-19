@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  17 JAN 2021 04:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  18 JAN 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,17 +254,68 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+)
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/extarrows/extarrows.sty
+Package: extarrows 2008/05/15 v1.0b Some extensible arrows
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks19
+\labelindent=\skip52
+\enit@outerparindent=\dimen144
+\enit@toks=\toks20
+\enit@inbox=\box47
+\enit@count@id=\count187
+\enitdp@description=\count188
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen144
-\pgfutil@tempdimb=\dimen145
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen145
+\pgfutil@tempdimb=\dimen146
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box47
+\pgfutil@abb=\box48
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -280,7 +331,7 @@ Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -296,41 +347,41 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks21
-\pgfkeys@temptoks=\toks22
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks23
+\pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen148
-\pgf@y=\dimen149
-\pgf@xa=\dimen150
-\pgf@ya=\dimen151
-\pgf@xb=\dimen152
-\pgf@yb=\dimen153
-\pgf@xc=\dimen154
-\pgf@yc=\dimen155
-\pgf@xd=\dimen156
-\pgf@yd=\dimen157
+\pgf@x=\dimen149
+\pgf@y=\dimen150
+\pgf@xa=\dimen151
+\pgf@ya=\dimen152
+\pgf@xb=\dimen153
+\pgf@yb=\dimen154
+\pgf@xc=\dimen155
+\pgf@yc=\dimen156
+\pgf@xd=\dimen157
+\pgf@yd=\dimen158
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count187
-\c@pgf@countb=\count188
-\c@pgf@countc=\count189
-\c@pgf@countd=\count190
-\t@pgf@toka=\toks24
-\t@pgf@tokb=\toks25
-\t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count191
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count193
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -346,8 +397,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count192
-\pgfsyssoftpath@bigbuffer@items=\count193
+\pgfsyssoftpath@smallbuffer@items=\count194
+\pgfsyssoftpath@bigbuffer@items=\count195
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -376,12 +427,12 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen158
-\pgfmath@count=\count194
-\pgfmath@box=\box48
-\pgfmath@toks=\toks27
-\pgfmath@stack@operand=\toks28
-\pgfmath@stack@operation=\toks29
+\pgfmath@dimen=\dimen159
+\pgfmath@count=\count196
+\pgfmath@box=\box49
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -401,58 +452,58 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count195
+\c@pgfmathroundto@lastzeros=\count197
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen159
-\pgf@picmaxx=\dimen160
-\pgf@picminy=\dimen161
-\pgf@picmaxy=\dimen162
-\pgf@pathminx=\dimen163
-\pgf@pathmaxx=\dimen164
-\pgf@pathminy=\dimen165
-\pgf@pathmaxy=\dimen166
-\pgf@xx=\dimen167
-\pgf@xy=\dimen168
-\pgf@yx=\dimen169
-\pgf@yy=\dimen170
-\pgf@zx=\dimen171
-\pgf@zy=\dimen172
+\pgf@picminx=\dimen160
+\pgf@picmaxx=\dimen161
+\pgf@picminy=\dimen162
+\pgf@picmaxy=\dimen163
+\pgf@pathminx=\dimen164
+\pgf@pathmaxx=\dimen165
+\pgf@pathminy=\dimen166
+\pgf@pathmaxy=\dimen167
+\pgf@xx=\dimen168
+\pgf@xy=\dimen169
+\pgf@yx=\dimen170
+\pgf@yy=\dimen171
+\pgf@zx=\dimen172
+\pgf@zy=\dimen173
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen173
-\pgf@path@lasty=\dimen174
+\pgf@path@lastx=\dimen174
+\pgf@path@lasty=\dimen175
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen175
-\pgf@shorten@start@additional=\dimen176
+\pgf@shorten@end@additional=\dimen176
+\pgf@shorten@start@additional=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box49
-\pgf@hbox=\box50
-\pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count196
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count198
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen177
+\pgflinewidth=\dimen178
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen178
-\pgf@pt@y=\dimen179
-\pgf@pt@temp=\dimen180
+\pgf@pt@x=\dimen179
+\pgf@pt@y=\dimen180
+\pgf@pt@temp=\dimen181
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -468,13 +519,13 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen181
+\pgfarrowsep=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen182
-\pgf@sys@shading@range@num=\count197
-\pgf@shadingcount=\count198
+\pgf@max=\dimen183
+\pgf@sys@shading@range@num=\count199
+\pgf@shadingcount=\count266
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -482,7 +533,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box52
+\pgfexternal@startupbox=\box53
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -501,15 +552,15 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box54
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen183
-\pgf@nodesepend=\dimen184
+\pgf@nodesepstart=\dimen184
+\pgf@nodesepend=\dimen185
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -523,10 +574,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen185
-\pgffor@skip=\dimen186
-\pgffor@stack=\toks30
-\pgffor@toks=\toks31
+\pgffor@iter=\dimen186
+\pgffor@skip=\dimen187
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -534,33 +585,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count199
-\pgfplotmarksize=\dimen187
+\pgf@plot@mark@count=\count267
+\pgfplotmarksize=\dimen188
 )
-\tikz@lastx=\dimen188
-\tikz@lasty=\dimen189
-\tikz@lastxsaved=\dimen190
-\tikz@lastysaved=\dimen191
-\tikz@lastmovetox=\dimen192
-\tikz@lastmovetoy=\dimen193
-\tikzleveldistance=\dimen194
-\tikzsiblingdistance=\dimen195
-\tikz@figbox=\box54
-\tikz@figbox@bg=\box55
-\tikz@tempbox=\box56
-\tikz@tempbox@bg=\box57
-\tikztreelevel=\count266
-\tikznumberofchildren=\count267
-\tikznumberofcurrentchild=\count268
-\tikz@fig@count=\count269
+\tikz@lastx=\dimen189
+\tikz@lasty=\dimen190
+\tikz@lastxsaved=\dimen191
+\tikz@lastysaved=\dimen192
+\tikz@lastmovetox=\dimen193
+\tikz@lastmovetoy=\dimen194
+\tikzleveldistance=\dimen195
+\tikzsiblingdistance=\dimen196
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count268
+\tikznumberofchildren=\count269
+\tikznumberofcurrentchild=\count270
+\tikz@fig@count=\count271
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count270
-\pgfmatrixcurrentcolumn=\count271
-\pgf@matrix@numberofcolumns=\count272
+\pgfmatrixcurrentrow=\count272
+\pgfmatrixcurrentcolumn=\count273
+\pgf@matrix@numberofcolumns=\count274
 )
-\tikz@expandcount=\count273
+\tikz@expandcount=\count275
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -568,73 +619,75 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count274
-\l__pdf_internal_box=\box58
+\l__kernel_color_stack_int=\count276
+\l__pdf_internal_box=\box59
 )
 (./equations_inequalities.aux)
 \openout1 = `equations_inequalities.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 17.
 LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
- 14.
+ 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 17.
 LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
-14.
+17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 17.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-14.
+17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 14
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 17
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 14.
+(Font)              scaled to size 11.15991pt on input line 17.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 17.
 
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen196
-\scratchbox=\box59
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen197
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count277
+\scratchdimen=\dimen197
+\scratchbox=\box60
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen198
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -645,78 +698,90 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 16.
+(Font)              scaled to size 16.07027pt on input line 19.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 16.07027pt on input line 16.
+(Font)              scaled to size 16.07027pt on input line 19.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 17.
+(Font)              scaled to size 13.39188pt on input line 20.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 17.
+(Font)              scaled to size 13.39188pt on input line 20.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 19.
+(Font)              scaled to size 8.36993pt on input line 22.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 19.
+(Font)              scaled to size 6.50995pt on input line 22.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 19.
+(Font)              scaled to size 11.03998pt on input line 22.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 19.
+(Font)              scaled to size 8.27998pt on input line 22.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 19.
+(Font)              scaled to size 6.43999pt on input line 22.
 LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
-19.
+22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 19.
+(Font)              scaled to size 11.03998pt on input line 22.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 19.
+(Font)              scaled to size 8.27998pt on input line 22.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 19.
+(Font)              scaled to size 6.43999pt on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 41.
+(Font)              scaled to size 11.15991pt on input line 44.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 9
-2.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 92.
+(Font)              scaled to size 11.15991pt on input line 95.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-[6] [7] [8] (./equations_inequalities.aux) ) 
+[6] [7] [8] [9] (./equations_inequalities.aux) ) 
 Here is how much of TeX's memory you used:
- 12778 strings out of 481239
- 251414 string characters out of 5920378
- 464638 words of memory out of 5000000
- 27785 multiletter control sequences out of 15000+600000
- 564839 words of font info for 70 fonts, out of 8000000 for 9000
+ 13585 strings out of 481239
+ 262320 string characters out of 5920378
+ 473127 words of memory out of 5000000
+ 28567 multiletter control sequences out of 15000+600000
+ 566074 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,431b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/font
-s/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fouri
-er/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fo
-urier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourie
-r-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on equations_inequalities.pdf (8 pages, 62800 bytes).
+ 60i,10n,60p,491b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/
+fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/f
+ourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourie
+r/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fo
+urier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on equations_inequalities.pdf (9 pages, 65688 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
