@@ -335,8 +335,16 @@ Unshifted     & $b = 0$ & $b = 0$ \\
 	\item When $x = 0$, $y = ax^2 + bx + c$ becomes $y = c$. So, looking at where our graph intersects with the line $x = 0$ aka the $y-$axis, we would know the sign of $c$.
 \end{itemize}
 
-\end{document}
+\section*{Problem-262}
+\subsection*{Problem Statement}
+The sum of two numbers is equal to 1. What is the maximal possible value of their product?
 
+\subsection*{Solution}
+We see that 347 + (-346) = 1, but their product is negative. Whereas 0 + 1 = 1, and their product is 0 and this is better. Can the product be positive? What about $\frac{1}{10} + \frac{9}{10}$? In this case the product is $\frac{9}{100}$ and is the best among the three examples we have just considered.
+
+Say one number is $x$ and the other is $1-x$. So, the product is the polynomial $x\ (1-x) = -x^2+x = -\left( x - \frac{1}{2} \right)^2 + \frac{1}{4}$. So, the graph of the product polynomial is a parabola that is upside down, $\frac{1}{2}$ units shifted right; therefore the vertex or crest is at $x = \frac{1}{2}$ and that is where maximal value occurs. So, the maximal value is $\frac{1}{2}\ \left( 1 - \frac{1}{2} \right) = \frac{1}{4}$.
+
+\end{document}
 
 
 
