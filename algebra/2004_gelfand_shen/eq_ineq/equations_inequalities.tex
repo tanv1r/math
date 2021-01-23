@@ -351,6 +351,31 @@ Prove that a square has the maximum area of all rectangles having the same perim
 \subsection*{Solution}
 Say the perimeter is $a$. If one side of the rectangle is $x$, then the other side must be $\frac{a}{2} - x$. Now the area is a polynomial:  $x\ \left( \frac{a}{2}-x \right) = -x^2 + x\cdot \frac{a}{2} = -\left( x - \frac{a}{4} \right)^2 + \frac{a^2}{16}$. Thus the area has the maximum value when $x = \frac{a}{4}$. But in that case the other side is also $\frac{a}{4}$, making it a square.
 
+\section*{Problem-264}
+\subsection*{Problem Statement}
+Prove that a square has the minimum perimeter of all rectangles having the same area.
+
+\subsection*{Solution}
+So we need to prove that among all rectangles with an area say $a$, the square has the minimum perimeter. Say $x$ is one side of a rectangle with area $a$. The other side then is $\frac{a}{x}$. The perimeter is a polynomial $P(x) = 2\ \left( x + \frac{a}{x} \right)$. Consider the below equation, where $c > 0$.
+\setcounter{equation}{0}
+\begin{equation}
+	2\ \left( x + \frac{a}{x} \right) = c
+\end{equation}
+We shall first find out for which $c > 0$, the equation $(1)$ has solutions. Then from those values of $c > 0$, we shall find out the minimum, because that gives us the minimum periemeter for a given area $a$. We shall then see, for that minimum $c > 0$, what value $x$ takes. Once we know how $x$ and the other side $\frac{a}{x}$ look, we would know what type of rectangle has this minimum perimeter. Note, since this is a rectangle we are talking about, we are interested in $x > 0$ solutions.
+
+\begin{equation*}
+	\begin{aligned}
+		2\ \left( x + \frac{a}{x} \right) &= c\\
+		x^2 - x\cdot \frac{c}{2} + a &= 0\\
+		\left( x - \frac{c}{4} \right)^2 &= \frac{c^2}{16} - a\\
+		x &= \frac{c}{4} + \frac{ \pm \sqrt{ c^2 - 16a } }{16}
+	\end{aligned}
+\end{equation*}
+
+So, $(1)$ has solutions when $c^2-16a \geq 0$. In other words, when $c \geq 4\sqrt{a}$ or $c \leq -4\sqrt{a}$, the equation $(1)$ has solutions. Hence, the minimum positive value of $c$ for which $(1)$ has a solution is $4\sqrt{a}$ and at this value of $c$, we have $x = \frac{c}{4} = \frac{4\sqrt{a}}{4} = \sqrt{a}$. The other side is $\frac{a}{x} = \frac{a}{\sqrt{a}} = \sqrt{a}$. Therefore, the rectangle with area $a$ that has the minimum perimeter is a square.\\
+
+In another way, say a square with area $a$ has perimeter $p$. Now, from \textbf{Problem-263}, we know that $a$ is the maximum possible area with the perimeter $p$. For all other rectangles, if they want to achieve the area $a$, their perimeter must be bigger than $p$. So, with area $a$, $p$ is the minimum possible perimeter for a rectangle and that happens when the rectangle is a square.
+
 \end{document}
 
 
