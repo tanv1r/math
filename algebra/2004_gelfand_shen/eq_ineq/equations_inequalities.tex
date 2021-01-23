@@ -293,6 +293,48 @@ We do not get six different graphs. The six graphs fall into two distinct groups
 		\end{enumerate}
 \end{enumerate}
 
+\section*{Problem-260}
+\subsection*{Problem Statement}
+How can you determine the signs of $a,\ b,\ c$ by looking at the graph of $y = ax^2+bx+c$?
+
+\subsection{Solution}
+If $a = 0$ but $b \neq 0$, we have $y = bx+c$, thus our graph is no longer a parabola, but a straight line. The slope and y-intercept of the straight line gives the signs of $b$ and $c$. On the other hand, if $b = 0$ but $a \neq 0$, we have $y = ax^2 + c$. This is similar to the form $y = a(x+m)^2+n$, so we would know the signs of $a$ and $c$ easily. If both $a$ and $b$ are zero, we have $y = c$. So, we have a graph that is a straight line and parallel to the $x-$axis. So, if the line lies above the $x-$axis, $c > 0$, else $c < 0$. 
+We shall now consider the more interesting case where $a \neq 0$ and $b \neq 0$. Since we know a lot about the graph of $y = a(x+m)^2+n$, let's transform $y = ax^2 + bx + c$ into that form.
+
+\begin{equation*}
+	\begin{aligned}
+		y &= ax^2 + bx + c\\
+		  &= a\left( x^2 + x\cdot \frac{b}{a} \right) + c\\
+		  &= a\left( x^2 + 2 \cdot x \cdot \frac{b}{2a} + \frac{b^2}{4a^2} \right) + c - \frac{b^2}{4a^2}\\
+		  &= a \left( x+\frac{b}{2a} \right)^2 + \left( c - \frac{b^2}{4a^2} \right)
+	\end{aligned}
+\end{equation*}
+
+Comparing with $y = a(x+m)^2 + n$, we can consider $\frac{b}{2a} = m$.
+
+Below is how we can find out the signs of $a,\ b,\ c$ :
+\begin{itemize}
+	\item Compared to the graph of $y = x^2$, if our graph is upside down, then $a < 0$; otherwise $a > 0$.
+	\item $\frac{b}{2a}$ determines how much our graph is shifted horizontally compared to the graph of $y = x^2$. So, if we know the sign of $a$ and how the graph is shifted horizontally, then we can deduce the sign of $b$. 
+	
+\begin{table}[ht]
+\centering % used for centering table
+\begin{tabular}{| l | c | c |} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ & $a > 0$ & $a < 0$ \\ % inserts table
+%heading
+\hline % inserts single horizontal line
+Shifted left  & $b > 0$ & $b < 0$ \\
+Shifted right & $b < 0$ & $b > 0$ \\
+Unshifted     & $b = 0$ & $b = 0$ \\
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+	\item When $x = 0$, $y = ax^2 + bx + c$ becomes $y = c$. So, looking at where our graph intersects with the line $x = 0$ aka the $y-$axis, we would know the sign of $c$.
+\end{itemize}
+
 \end{document}
 
 
