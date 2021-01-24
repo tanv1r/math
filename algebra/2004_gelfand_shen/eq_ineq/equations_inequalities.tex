@@ -491,6 +491,23 @@ Let $x + \frac{1}{x}$ be called $u$, for convenience.
 \end{equation*}
 So $u = 0$ or $u = -\frac{7}{2}$. If $u = 0$, we end up having $x^2+1 = 0$, so that one does not give a solution. On the other hand, $u = -\frac{7}{2}$ gives us $2x^2 + 7x + 2 = 0$ and that gives us two solutions: $x_{1,2} = \frac{-7 \pm \sqrt{33}}{4}$.
 
+\section*{Problem-272}
+\subsection*{Problem Statement}
+Compute $\sqrt[7]{0.999}$ to three decimal places.
+
+\subsection*{Solution}
+Let's see where $\sqrt[7]{0.999}$ lies with respect to $0.9994$. Here $0.9994$ is interesting, because we know $\sqrt[7]{0.999} < 1$; so, if the required 7-th root lies above $0.9994$ we can say that $0.9995 \leq \sqrt[7]{0.999} < 1$; therefore, rounded to three decimal places, the 7-th root would be $1.000$. We shall show $0.9994 < \sqrt[7]{0.999}$ by showing that $0.9994^7 < 0.999$. Let's consider $0.9994^2$ as a starter.
+\begin{equation*}
+	\begin{aligned}
+		0.9994^2 &= (1-0.0006)^2\\
+		         &= 1^2 - 2 \times 1 \times 6 \times 10^{-4} + \left( 6 \times 10^{-4} \right)^2\\
+		         &= 1 - 12 \times 10^{-4} + 36 \times 10^{-8}\\
+		         &= 0.99880036\\
+		         &< 0.999
+	\end{aligned}
+\end{equation*}
+We see that even the second power of 0.9994 is less than 0.999. The seventh power of 0.9994 is even smaller. Thus $0.9994 < \sqrt[7]{0.999}$.
+
 \end{document}
 
 
