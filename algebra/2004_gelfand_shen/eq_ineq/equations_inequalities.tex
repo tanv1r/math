@@ -383,6 +383,33 @@ Find the minimal value of the expression $x + \frac{2}{x}$ for positive $x$.
 \subsection*{Solution}
 We may consider $x$ and $\frac{2}{x}$ as the two sides of a rectangle with area 2. With that interpretation, $2\ \left( x + \frac{2}{x} \right)$ is the perimeter of the rectangle which, according to \textbf{Problem-264}, is minimal when the rectangle is a square. Therefore, $2\ \left( x + \frac{2}{x} \right)$ is minimal when $x = \frac{2}{x}$. This is also the condition for our expression $x + \frac{2}{x}$, which is half the perimeter, to have its minimum value for $x > 0$. So, when $x = \sqrt{2}$, the perimeter and also our expression $x + \frac{2}{x}$ assume their minimal values. So minimal value of $x + \frac{2}{x}$ is $\sqrt{2} + \frac{2}{\sqrt{2}} = 2\sqrt{2}$.
 
+\section*{Problem-267}
+\subsection*{Problem Statement}
+Construct a biquadratic equation
+\begin{enumerate}[(a)]
+	\item having no solution;
+	\item having exactly one solution;
+	\item having exactly two solutions;
+	\item having exactly three solutions;
+	\item having exactly four solutions;
+	\item having exactly five solutions;
+\end{enumerate}
+
+\subsection*{Solution}
+A biquadratic equation has the form $ax^4+bx^2+c = 0$. We are seeking solution in real numbers.
+\begin{enumerate}[(a)]
+	\item $x^4+2x^2+1 = 0$ does not have a solution. Because if there were a solution then $y = x^2$ would have been a solution to the equation $y^2+2y+1 = 0$. Then $(y+1)^2 = 0$, or $y = -1$. That means $x^2 = -1$.
+	\item $x^2(x^2+1) = 0$ or $x^4+x^2 = 0$ has exactly one solution $x = 0$.
+	\item $\left(x^2-1\right)\ \left(x^2+1\right) = 0$ or $x^4-1 = 0$ has exactly two solutions, namely $x_{1,2} = \pm 1$.
+	\item We modify the solution for (b) to get a biquadratic equation having exactly three roots. $x^2\ \left(x^2-1\right) = 0$ or $x^4-x^2 = 0$ has exactly three roots: $x_{1,2,3} = 0, \pm 1$.
+	\item $\left(x^2-1\right)\ \left(x^2-2\right) = 0$ or $x^4-3x^2+2=0$ has exactly four solutions, namely $x_{1,2,3,4} = \pm 1, \pm \sqrt{2}$.
+	\item A biquadratic equation cannot have exactly five solutions. Because if there were such solutions, we could write the equation like below:
+	\[
+		(x-a)\ (x-b)\ (x-c)\ (x-d)\ (x-e) = 0
+	\]
+And the highest degree then would be more than 4 and it would not be a biquadratic equation anymore.
+\end{enumerate}
+
 \end{document}
 
 
