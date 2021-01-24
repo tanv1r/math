@@ -3,6 +3,10 @@
 \usepackage{fouriernc}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{pifont}
+\newcommand{\cmark}{\text{\ding{51}}}
+\newcommand{\xmark}{\text{\ding{55}}}
+
 \usepackage{extarrows}
 \usepackage[shortlabels]{enumitem}
 
@@ -329,7 +333,6 @@ Shifted right & $b < 0$ & $b > 0$ \\
 Unshifted     & $b = 0$ & $b = 0$ \\
 \hline %inserts single line
 \end{tabular}
-\label{table:nonlin} % is used to refer this table in the text
 \end{table}
 
 	\item When $x = 0$, $y = ax^2 + bx + c$ becomes $y = c$. So, looking at where our graph intersects with the line $x = 0$ aka the $y-$axis, we would know the sign of $c$.
@@ -409,6 +412,53 @@ A biquadratic equation has the form $ax^4+bx^2+c = 0$. We are seeking solution i
 	\]
 And the highest degree of the polynomial on the left would then be more than 4 and it would not be a biquadratic equation anymore.
 \end{enumerate}
+
+\section*{Problem-268}
+\subsection*{Problem Statement}
+What is the possible number of solutions of the equation
+\[
+	ax^6 + bx^3 + c = 0\ ?
+\]
+
+\subsection*{Solution}
+It $x$ is a solution to our equation, then $y = x^3$ is a solution to the quadratic equation $ay^2 + by + c = 0$. As long as $a \neq 0$, the quadratic equation can have $0,\ 1,$ or $2$ solutions. There will also be 0, 1, or 2 corresponding solutions to our equation $ax^6 + bx^3 + c = 0$. If $a = 0$ and $b \neq 0$, we have exactly one solution. If $a = 0, b = 0, c = 0$, we have infinitely many solutions.
+
+\section*{Problem-269}
+\subsection*{Problem Statement}
+The same question for the equation
+\[
+	ax^8 + bx^4 + c = 0
+\]
+
+\subsection*{Solution}
+There are 0, 1, 2, 3, 4, or infinitely many solutions. Below table shows the different number of solutions depending on which of $a,\ b,\ c$ are non-zero.
+
+\begin{table}[ht]
+\centering % used for centering table
+\begin{tabular}{| r | r | r | r |} % centered columns (4 columns)
+\hline %inserts double horizontal lines
+ $a = 0$ & $b = 0$ & $c = 0$ & Maximum Number of Solutions \\ % inserts table
+%heading
+\hline % inserts single horizontal line
+\hline
+$\cmark$ & $\cmark$ & $\cmark$ & $\infty$ \\
+\hline
+$\cmark$ & $\cmark$ & $\xmark$ & 0\\
+\hline
+$\cmark$ & $\xmark$ & $\cmark$ & 1, ($x = 0$)\\
+\hline
+$\cmark$ & $\xmark$ & $\xmark$ & 2, $\left( x_{1,2} = {\pm \beta}^{\frac{1}{4}} \text{ with } \beta = -\frac{c}{b} > 0 \right)$\\
+\hline
+$\xmark$ & $\cmark$ & $\cmark$ & 1, ($x=0$)\\
+\hline
+$\xmark$ & $\cmark$ & $\xmark$ & 2, $\left( x = \pm \gamma^{\frac{1}{8}} \mbox{ with } \gamma = -\frac{c}{a} > 0 \right)$\\
+\hline
+$\xmark$ & $\xmark$ & $\cmark$ & 3, $\left( x=0, \pm \delta^{\frac{1}{4}} \mbox{ with } \delta = -\frac{b}{a} > 0 \right)$\\
+\hline
+$\xmark$ & $\xmark$ & $\xmark$ & \shortstack{4, two come from each of the two solutions of \\ $ay^2 + ay+c = 0$ with $y = x^4$}\\
+\hline %inserts single line
+\end{tabular}
+\end{table}
 
 \end{document}
 
