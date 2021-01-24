@@ -508,6 +508,27 @@ Let's see where $\sqrt[7]{0.999}$ lies with respect to $0.9994$. Here $0.9994$ i
 \end{equation*}
 We see that even the second power of 0.9994 is less than 0.999. The seventh power of 0.9994 is even smaller. Thus $0.9994 < \sqrt[7]{0.999}$ and to three decimal places $\sqrt[7]{0.999} = 1.000$.
 
+\section*{Problem-292}
+\subsection*{Problem Statement}
+Prove that for $a > 1$ the value $a^p$ increases when $p$ increases. Prove that for $0 < a < 1$ the value $a^p$ \emph{decreases} when $p$ increases.
+
+\subsection{Solution}
+\begin{itemize}
+	\item $a > 1$. Let's compare $a^p$ and $a^{p+\delta}$ with $\delta > 0$.
+	\begin{equation*}
+		\begin{aligned}
+			a^p\ \ &?\ \ a^{p+\delta}\\
+			a^p\ \ &?\ \ a^p \cdot a^{\delta}\\
+			1\ \ &?\ \ a^{\delta}\ \ \ /*\mbox{We can do this even if } p < 0*/
+		\end{aligned}
+	\end{equation*}
+	We now use \textbf{proof by contradiction} to show that $a^{\delta} > 1$ thus $a^p < a^{p+\delta}$. Say, $1 > a^{\delta}$. Since any root of 1 is 1 itself, if we now take $\delta$-th root on both side, we have $1 > a$; a contradiction. \contradiction
+
+Note the tacit assumption here that taking positive root of two positive numbers does not change the magnitude-relation between them.
+
+\item $0 < a < 1$. Similar to the previous case we compare $a^p$ and $a^{p+\delta}$ with $\delta > 0$ and reach the comparison: $1\ \ ?\ \ a^{\delta}$. Again we shall make use of \textbf{proof by contradiction}. Let's assume the opposite of what is required, therefore, we assume $a^{\delta} > 1$. Also, since $0 < a < 1$, let's write $a = \frac{1}{\beta}$ with $\beta > 1$. So, from our assumption, $\frac{1}{\beta^{\delta}} > 1$ or $\frac{1}{\beta} > 1$ or $\beta < 1$, a contradiction. \contradiction
+\end{itemize}
+
 \end{document}
 
 
