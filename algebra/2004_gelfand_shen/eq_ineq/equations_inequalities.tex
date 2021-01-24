@@ -566,23 +566,19 @@ We shall prove the left and right inequality separately.
 	\end{equation*}
 \end{itemize}
 
-\section*{Problem-296}
+\section*{Problem-297}
 \subsection*{Problem Statement}
-Prove
-\[
-\frac{1}{101} + \frac{1}{102} + \cdots + \frac{1}{200} = 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots + \frac{1}{199} - \frac{1}{200}.
-\]
+Prove that $(1.01)^{100} \geq 2$.
 
 \subsection*{Solution}
-We shall start with the right side and transform it into the left side.
+We make use of binomial expansion.
 \begin{equation*}
 	\begin{aligned}
-		& 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots + \frac{1}{199} - \frac{1}{200}\\
-		&= \left( 1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4} + \cdots + \frac{1}{99} - \frac{1}{100} \right) - \left( \frac{1}{102} + \frac{1}{104} + \cdots + \frac{1}{200} \right) + \left( \frac{1}{101} + \frac{1}{103} + \cdots + \frac{1}{199} \right)\\
-		&= \left[ \left( 1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{100} \right) - \left( 1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{50} \right) \right] - \left( \frac{1}{102} + \frac{1}{104} + \cdots + \frac{1}{200} \right) + \left( \frac{1}{101} + \frac{1}{103} + \cdots + \frac{1}{199} \right)\\
-		&= \left[ \frac{1}{51} + \frac{1}{52} + \cdots + \frac{1}{100} \right] - \left( \frac{1}{102} + \frac{1}{104} + \cdots + \frac{1}{200} \right) + \left( \frac{1}{101} + \frac{1}{103} + \cdots + \frac{1}{199} \right)\\
-		&= 2\left[ \frac{1}{102} + \frac{1}{104} + \cdots + \frac{1}{200} \right] - \left( \frac{1}{102} + \frac{1}{104} + \cdots + \frac{1}{200} \right) + \left( \frac{1}{101} + \frac{1}{103} + \cdots + \frac{1}{199} \right)\\
-		&= \frac{1}{101} + \frac{1}{102} + \cdots + \frac{1}{200}
+		& (1.01)^{100}\\
+		&= \left( 1 + \frac{1}{100} \right)^{100}\\
+		&= \sum_{k = 0}^{100} \binom{100}{k} 1^{100-k}\cdot \frac{1}{100^{k}}\\
+		&= 1 + 1 + \sum_{k=2}^{100}\frac{1}{100^k}\\
+		&\geq 2
 	\end{aligned}
 \end{equation*}
 
