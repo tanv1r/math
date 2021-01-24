@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  24 JAN 2021 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  24 JAN 2021 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,7 +796,7 @@ Overfull \hbox (5.29166pt too wide) in paragraph at lines 438--461
 Here is how much of TeX's memory you used:
  13634 strings out of 481239
  263048 string characters out of 5920378
- 474793 words of memory out of 5000000
+ 474794 words of memory out of 5000000
  28604 multiletter control sequences out of 15000+600000
  567484 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -809,7 +809,7 @@ ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on equations_inequalities.pdf (16 pages, 88338 bytes).
+Output written on equations_inequalities.pdf (16 pages, 88364 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
