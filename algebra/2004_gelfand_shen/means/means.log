@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  25 JAN 2021 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  25 JAN 2021 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -289,24 +289,26 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 11.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 11.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 9.29993pt on input line 17.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./means.aux) ) 
 Here is how much of TeX's memory you used:
- 1425 strings out of 481239
- 19901 string characters out of 5920378
+ 1427 strings out of 481239
+ 19920 string characters out of 5920378
  246554 words of memory out of 5000000
- 16702 multiletter control sequences out of 15000+600000
- 561365 words of font info for 65 fonts, out of 8000000 for 9000
+ 16703 multiletter control sequences out of 15000+600000
+ 563299 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,4n,29p,216b,204s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,4n,29p,467b,204s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
 fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/nc
 ntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri
 8a.pfb>
-Output written on means.pdf (1 page, 30479 bytes).
+Output written on means.pdf (1 page, 31768 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
