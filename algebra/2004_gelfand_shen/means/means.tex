@@ -1,6 +1,8 @@
 \documentclass{article}
 
 \usepackage{fouriernc}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage[shortlabels]{enumitem}
 
 \begin{document}
@@ -18,4 +20,87 @@
 	\item The question could also ask what are the sides of the rectangle having the same area as a rectangle with sides $a$ and $b$, but has the minimum possible preimeter. From \textbf{Problem-264}, we know that the rectangle with the minimum perimeter would be a square. We need $x^2 = a \cdot b$, or $x = \sqrt{a \cdot b}$. Therefore, the side of the square is the geometric mean of the sides of the rectangle.
 \end{enumerate}
 
+\section*{Problem-317}
+\subsection*{Problem Statement}
+Prove the inequality between arithmetic and geometric means for $n = 4$.
+
+\subsection*{Solution}
+For non-negative integers $a,\ b,\ c,\ d$, we need to prove
+\[
+	\sqrt[4]{a \cdot b \cdot c \cdot d} \leq \frac{a+b+c+d}{4}
+\]
+
+We make the below two observations, $(1)$ and $(2)$ which we use during the proof.
+\begin{equation*}
+	\begin{aligned}
+		a \cdot b\ \ \ \ \  &? \ \ \ \ \  \frac{a+b}{2} \cdot \frac{a+b}{2}\\
+		4 \cdot a \cdot b\ \ \ \ \ &?\ \ \ \ \ (a+b)^2\\
+		0 \ \ \ \ \  &? \ \ \ \ \  (a-b)^2\\
+		0 \ \ \ \ \  &\leq \ \ \ \ \  (a-b)^2
+	\end{aligned}
+\end{equation*}
+Thus we have 
+\begin{equation}
+	\frac{a+b}{2} \cdot \frac{a+b}{2} \geq a \cdot b
+\end{equation}
+Similarly,
+\begin{equation*}
+	\begin{aligned}
+		\frac{a+b}{2} \cdot \frac{c+d}{2}\ \ \ \ \ &?\ \ \ \ \  \frac{a+b+c+d}{4} \cdot \frac{a+b+c+d}{4}
+	\end{aligned}
+\end{equation*}
+Let $a+b = x$ and $c+d = y$, and we have
+\begin{equation*}(a-b)^2
+	\begin{aligned}
+		\frac{x}{2} \cdot \frac{y}{2}\ \ \ \ \ &?\ \ \ \ \  \frac{x+y}{4} \cdot \frac{x+y}{4}\\
+		4 \cdot x \cdot y\ \ \ \ \  &?\ \ \ \ \  (x+y)^2\\
+		0\ \ \ \ \ &? \ \ \ \ \  (x-y)^2\\
+		0\ \ \ \ \ &\leq \ \ \ \ \  (x-y)^2
+	\end{aligned}
+\end{equation*}
+Thus we have,
+\begin{equation}
+	\frac{a+b+c+d}{4} \cdot \frac{a+b+c+d}{4} \geq \frac{a+b}{2} \cdot \frac{c+d}{2}
+\end{equation}
+
+Now we peform a sequence of transformations on the four numbers $(a, b, c, d)$. After each transformation, the sum remains $a+b+c+d$ but the product is bigger or equal to $a \cdot b \cdot c \cdot d$.
+\[
+	{(a, b, c, d) \mapsto \left(\frac{a+b}{2}, \frac{a+b}{2}, c, d \right)}
+\]
+In the above transformation, the product increases or remains the same (when $a = b$) because of $(1)$.
+\[
+	\left(\frac{a+b}{2}, \frac{a+b}{2}, c, d \right) \mapsto \left(\frac{a+b}{2}, \frac{a+b}{2}, \frac{c+d}{2}, \frac{c+d}{2} \right)
+\]
+In the above transformation, the product increases or remains the same (when $c = d$) because of $(1)$.
+\[
+	\left(\frac{a+b}{2}, \frac{a+b}{2}, \frac{c+d}{2}, \frac{c+d}{2} \right) \mapsto \left(\frac{a+b+c+d}{4}, \frac{a+b}{2}, \frac{a+b+c+d}{4}, \frac{c+d}{2} \right)
+\]
+In the above transformation, the product increases or remains the same (when $a+b = c+d$) because of $(2)$.
+\[
+	\left(\frac{a+b+c+d}{4}, \frac{a+b}{2}, \frac{a+b+c+d}{4}, \frac{c+d}{2} \right) \mapsto \left(\frac{a+b+c+d}{4}, \frac{a+b+c+d}{4}, \frac{a+b+c+d}{4}, \frac{a+b+c+d}{4} \right)
+\]
+In the above transformation, the product increases or remains the same (when $a+b = c+d$) because of $(2)$.
+Let $\frac{a+b+c+d}{4} = S$. Then from the last transformation, we have
+\begin{equation*}
+	\begin{aligned}
+		a \cdot b \cdot c \cdot d &\leq S \cdot S \cdot S \cdot S\\
+		\sqrt[4]{a \cdot b \cdot c \cdot d} &\leq \frac{a+b+c+d}{4}\ \ \ \ \ \ \ \ \blacksquare
+	\end{aligned}
+\end{equation*}
+
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
