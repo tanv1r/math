@@ -209,6 +209,31 @@ Now if we make the replacements: $a = \sqrt[3]{p},\ b = \sqrt[3]{q},\ c = \sqrt[
 	\sqrt[3]{p \cdot q \cdot r} \leq \frac{p+q+r}{3}
 \]
 If we have more than 3 numbers for which we need to establish  $(1)$, we can always group (and replace the group with the group-sum) some of the numbers so that we end up with three numbers and appeal to our just-established fact.
+
+\section*{Problem-326}
+\subsection*{Problem Statement}
+Assume that $a_1,\ \ldots,\ a_n$ are positive numbers. Prove that
+\[
+	\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1} \geq n
+\]
+
+\subsection*{Solution}
+Conside the below product:
+\[
+	\frac{a_1}{a_2} \cdot \frac{a_2}{a_3} \cdot \cdots \cdot \frac{a_{n-1}}{a_n} \cdot \frac{a_n}{a_1}
+\]
+Each $a_i$ with $1 \leq i \leq n$ appears exactly once above and below, so the product evaluates to 1. So, we have:
+\[
+	\sqrt[n]{\frac{a_1}{a_2} \cdot \frac{a_2}{a_3} \cdot \cdots \cdot \frac{a_{n-1}}{a_n} \cdot \frac{a_n}{a_1}} = 1
+\]
+Thus the geometric mean of the positive numbers $\frac{a_1}{a_2},\ \frac{a_2}{a_3},\ \ldots,\ \frac{a_{n-1}}{a_n},\ \frac{a_n}{a_1}$ is 1. Their arithmetic mean cannot be less than 1. So, we have:
+\begin{equation*}
+	\begin{aligned}
+		\frac{\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1}}{n} &\geq 1\\
+		\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1} &\geq n\ \ \ \ \ \blacksquare
+	\end{aligned}
+\end{equation*}
+
 \end{document}
 
 
