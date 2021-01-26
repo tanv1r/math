@@ -115,22 +115,100 @@ We note that $\sqrt[4]{ abc\ \sqrt[3]{abc} } = \sqrt[4]{ (abc)^1 \cdot (abc)^{\f
 	\end{aligned}
 \end{equation*}
 
+\section*{Problem-323}
+\subsection*{Problem Statement}
+Prove the inequality between arithmetic and geometric means for all integer $n \geq 2$.
 
+\subsection*{Solution}
+For $n \geq 2$ non-negative integers $a_1,\ a_2,\ \ldots,\ a_n$ we are asked to prove
+\setcounter{equation}{0}
+\begin{equation}
+	\sqrt[n]{\prod_{k=1}^{n}\ a_k} \leq \frac{\sum_{k=1}^{n}\ a_k}{n}
+\end{equation}
+\subsubsection*{Proof-1}
+We can prove $(1)$ for $n = 2^{m}$ where $m \geq 1$ using the  transformation idea from \textbf{Problem-317}. Say $n \geq 2$, lies in between $2^{p}$ and $2^{p+1}$. We already know $(1)$ holds for $2^{p+1}$ numbers; using that, we can use the idea from \textbf{Problem-320} to prove it for $2^{p+1}-1$ numbers as well. Applying the idea from \textbf{Problem-320} in sequence, starting wtih $2^{p+1}-1$ numbers and going backwards, we can prove $(1)$ for $n$.
 
+\subsubsection*{Proof-2}
+Let's scale each of the $n$ numbers $\sigma > 0$ times and see what happens to their arithmetic and geometric means. We start off with arithmetic mean:
+\begin{equation*}
+	\begin{aligned}
+		&\frac{ \sum_{k=1}^{n}\ \sigma \cdot a_k }{n}\\
+		&= \sigma \cdot \frac{\sum_{k=1}^n\ a_k}{n}
+	\end{aligned}
+\end{equation*}
+Let's now look at the modified geometric mean:
+\begin{equation*}
+	\begin{aligned}
+		&\sqrt[n]{ \prod_{k=1}^{n}\ \sigma \cdot a_k }\\
+		&= \sqrt[n]{ \sigma^n \prod_{k=1}^{n}\ a_k }\\
+		&= \sigma\ \sqrt[n]{ \prod_{k=1}{n}\ a_k }
+	\end{aligned}
+\end{equation*}
+We see that both arithmetic and geometric means have been scaled by the same factor $\sigma$ thus $(1)$ holds for $a'_{k} = \sigma \cdot a_k$, if it holds for $a_k$.
 
+Let $\sum_{k=1}^{n}\ a_k = \psi$. If all $a_k$'s are not zero, $\psi > 0$. We can now scale $a_k$'s to get $a'_k$'s such that $a'_k = \frac{n}{\psi} \cdot a_k$. Since scaling numbers by the same amount does not change the relation between their arithmetic and geometric means, if we can show $(1)$ for $a'_k$'s that would be sufficient. Now, observe that $\sum_{k=1}^{n}\ a'_k = n$. So, for $a'_k$'s the inequality $(1)$ takes the below form:
+\[
+	\sqrt[n]{ \prod_{k=1}^{n}\ a'_k }\ \  \leq\ \  1
+\]
+We shall now try to prove this derived inequality.
+\begin{enumerate}
+	\item For $n = 2$. We thus have $a'_1 + a'_2 = 2$. If both numbers are not equal to 1, we can let $a'_1 = 1-\delta$ and $a'_2 = 1+\delta$ with $\delta > 0$. Now the product $a'_1 \cdot a'_2 = (1-\delta)\ (1+\delta) = 1 - \delta^2 \leq 1$. That is what we needed.
+	\item For $n=3$. Now we have $a'_1 + a'_2 + a'_3 = 3$. If all numbers are not equal to 1 (if they are, we are done), one should be less than 1 and another should be greater than 1. Say $a'_1 < 1$ and $a'_2 > 1$. So, $a'_1 - 1 < 0$ and $a'_2-1 > 0$.
+	\begin{equation*}
+		\begin{aligned}
+			\left( a'_1 - 1 \right)\ \left( a'_2-1 \right) &< 0\\
+			a'_1a'_2-a'_1-a'_2+1 &< 0\\
+			a'_1a'_2+1 &< a'_1 + a'_2\\
+			a'_1a'_2+1 + a'_3 &< a'_1 + a'_2 + a'_3\\
+			a'_1a'_2+1 + a'_3 &< 3\\
+			a'_1a'_2 + a'_3 &< 2
+		\end{aligned}
+	\end{equation*}
+We have now back to the first case where we have two non-negative numbers $a'_1a'_2$ and $a'_3$ and they sum to 2. So, we know how to go about the proof henceforth.
+	\item For $n=4$. We have $a'_1 + a'_2 + a'_3 + a'_4 = 4$.  With a similar argument to the second case, we arrive at the below inequality:
+	\[
+		a'_1a'_2 + a'_3 + a'_4 < 3
+	\]
+This takes us back to the second case and we know the rest.
 
+For any $n > 3$, we can use the reducing idea in the second and third cases to go back to our base case, namely the case with $n=2$ which we have proved already.
+\end{enumerate}
 
+\subsubsection*{Proof-3}
+Let's prove an identity. We start off with $(a+b+c)^3$:
+\begin{equation*}
+	\begin{aligned}
+		&(a+b+c)^3\\
+		&= a^3 + b^3 + c^3 + 3 a^2 b + 3 a b^2 + 3 b^2 c + 3 b c^2 + 3 c^2 a + 3 c a^2 + 6 abc\\
+		&= a^3 + b^3 + c^3 - 3abc + 3 a^2 b + 3 a b^2 + 3 abc + 3 abc + 3 b^2 c + 3 b c^2 + 3 c a^2 + 3 abc + 3 c^2 a\\
+		&= a^3 + b^3 + c^3 - 3abc + 3\ (a+b+c)\ (ab+bc+ca)
+	\end{aligned}
+\end{equation*}
+We can now rearrange the two sides as follows:
+\begin{equation*}
+	\begin{aligned}
+		&a^3 + b^3 + c^3 - 3abc\\
+		&= (a+b+c)^3 - 3\ (a+b+c)\ (ab+bc+ca)\\
+		&= (a+b+c) \left[ (a+b+c)^2 - 3(ab + bc + ca) \right]\\
+		&= (a+b+c)\ \left( a^2+b^2+c^2 - ab - bc - ca \right)\\
+		&= \frac{1}{2}\ (a+b+c) \left( 2a^2 + 2b^2 + 2c^2 - 2ab - 2bc - 2ca \right)\\
+		&= \frac{1}{2}\ (a+b+c) \left[ \left(a^2-2ab+b^2\right) + \left( b^2 - 2bc + c^2 \right) + \left( c^2 - 2ca + a^2 \right) \right]\\
+		&= \frac{1}{2}\ (a+b+c) \left[ (a-b)^2 + (b-c)^2 + (c-a)^2 \right]
+	\end{aligned}
+\end{equation*}
 
-
-
-
-
-
-
-
-
-
-
+We see that for non-negative numbers $a,\ b,\ c$, the right side cannot be negative. So,
+\begin{equation*}
+	\begin{aligned}
+		a^3 + b^3 + c^3 - 3abc &\geq 0\\
+		abc \leq \frac{a^3+b^3+c^3}{3}
+	\end{aligned}
+\end{equation*}
+Now if we make the replacements: $a = \sqrt[3]{p},\ b = \sqrt[3]{q},\ c = \sqrt[3]{r}$, then we have our required inequality between geometric and arithmetic means of three non-negative numbers:
+\[
+	\sqrt[3]{p \cdot q \cdot r} \leq \frac{p+q+r}{3}
+\]
+If we have more than 3 numbers for which we need to establish  $(1)$, we can always group (and replace the group with the group-sum) some of the numbers so that we end up with three numbers and appeal to our just-established fact.
 \end{document}
 
 
