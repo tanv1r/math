@@ -234,6 +234,30 @@ In other words, the geometric mean of the positive numbers $\frac{a_1}{a_2},\ \f
 	\end{aligned}
 \end{equation*}
 
+\section*{Problem-328}
+\subsection*{Problem Statement}
+Find the minimal value of $a+b$ if $a$ and $b$ are nonnegative numbers and $ab^2 = 1$.
+
+\subsection*{Solution}
+Since the arithmetic mean is at least as big as the geometric mean, we have $\frac{a+b}{2} \geq \sqrt{ab}$ or $a+b \geq 2\sqrt{ab}$; the equal case corresponds to the minimum value of $a+b$ and that happens when $a=b$. However, since $ab^2 = 1$, when $a+b$ assumes its minimum value, therefore, when $a=b$, we have $a^3=1$ or $a=1$. So, the minimum value of $a+b = 2$.
+
+\section*{Problem-330}
+\subsection*{Problem Statement}
+Prove the inequality
+\[
+	\sqrt[3]{abc} \leq \frac{a+2b+3c}{3\sqrt[3]{6}}
+\]
+
+\subsection*{Solution}
+We can rearrange the inequality as follows:
+\begin{equation*}
+	\begin{aligned}
+		\sqrt[3]{6 \cdot abc} &\leq \frac{a+2b+3c}{3}\\
+		\sqrt[3]{a \cdot 2b \cdot 3c} &\leq \frac{a + 2b + 3c}{3}
+	\end{aligned}
+\end{equation*}
+So, the inequality in question is just a different form of the inequality for the geometric and arithmetic means of the three (nonnegative) numbers $a, 2b, 3c$.
+
 \end{document}
 
 
