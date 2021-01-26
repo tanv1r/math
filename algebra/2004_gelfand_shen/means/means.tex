@@ -50,7 +50,7 @@ Similarly,
 	\end{aligned}
 \end{equation*}
 Let $a+b = x$ and $c+d = y$, and we have
-\begin{equation*}(a-b)^2
+\begin{equation*}
 	\begin{aligned}
 		\frac{x}{2} \cdot \frac{y}{2}\ \ \ \ \ &?\ \ \ \ \  \frac{x+y}{4} \cdot \frac{x+y}{4}\\
 		4 \cdot x \cdot y\ \ \ \ \  &?\ \ \ \ \  (x+y)^2\\
@@ -87,6 +87,49 @@ Let $\frac{a+b+c+d}{4} = S$. Then from the last transformation, we have
 		\sqrt[4]{a \cdot b \cdot c \cdot d} &\leq \frac{a+b+c+d}{4}\ \ \ \ \ \ \ \ \blacksquare
 	\end{aligned}
 \end{equation*}
+
+\section*{Problem-320}
+\subsection*{Problem Statement}
+Prove the inequality between arithmetic and geometric means for $n = 3$.
+
+\subsection*{Solution}
+We shall reduce the case for $n=3$ to the case for $n=4$ and use the result from \textbf{Problem-317} to finish it off.
+\\
+
+For three non-negative integers $a,\ b,\ c$ we are asked to prove
+\[
+	\sqrt[3]{a \cdot b \cdot c} \leq \frac{a+b+c}{3}
+\]
+
+We shall throw in the geometric mean of the three integers and form a group of four non-negative integers: $(a,b,c,\sqrt[3]{a \cdot b \cdot c})$. From \textbf{Problem-317} we know
+\setcounter{equation}{0}
+\begin{equation}
+	\sqrt[4]{ abc\ \sqrt[3]{abc} } \leq \frac{a+b+c+\sqrt[3]{abc}}{4}
+\end{equation}
+We note that $\sqrt[4]{ abc\ \sqrt[3]{abc} } = \sqrt[4]{ (abc)^1 \cdot (abc)^{\frac{1}{3}}) } = \sqrt[4]{ (abc)^{\frac{4}{3}} } = \sqrt[3]{abc}$. So, from $(1)$ now we have
+\begin{equation*}
+	\begin{aligned}
+		\sqrt[3]{abc} &\leq \frac{a+b+c+\sqrt[3]{abc}}{4}\\
+		4\sqrt[3]{abc} &\leq a+b+c+\sqrt[3]{abc}\\
+		\sqrt[3]{a \cdot b \cdot c} &\leq \frac{a+b+c}{3}\ \ \ \ \ \ \ \ \ \blacksquare
+	\end{aligned}
+\end{equation*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
 
