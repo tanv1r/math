@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  28 JAN 2021 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  28 JAN 2021 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -779,11 +779,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 [7] [8
 
-] [9
+]
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+[9
 
 ]
 Overfull \hbox (0.10315pt too wide) in paragraph at lines 241--242
-[]\T1/pplj/m/n/10 (+14) The equation thus have infinitely many solutions, all r
+[]\T1/pplj/m/n/10 (+14) The equation thus have infinitely many solutions; all r
 eal numbers 
  []
 
@@ -967,7 +971,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 938.
 Here is how much of TeX's memory you used:
  15434 strings out of 481239
  235322 string characters out of 5920378
- 808843 words of memory out of 5000000
+ 808901 words of memory out of 5000000
  29887 multiletter control sequences out of 15000+600000
  671806 words of font info for 470 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -991,7 +995,7 @@ plrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 183222 bytes).
+Output written on main.pdf (32 pages, 183404 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  519 compressed objects within 6 object streams
