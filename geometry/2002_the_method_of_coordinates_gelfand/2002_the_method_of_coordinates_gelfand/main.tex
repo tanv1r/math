@@ -244,9 +244,9 @@ The equation thus have infinitely many solutions; all real numbers $x$ for which
 
 \section{The Distance Between Two Points}
 \subsection{EXERCISE--2}
-\newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the cooridinate of the center of the segment $AB$.
+\newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the coordinate of the center of the segment $AB$.
 
-\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$, therefore $\frac{1}{2}d(A, B)$, to the smaller of $x_1$ and $x_2$.
+\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$ aka $\frac{1}{2}d(A, B)$, to the smaller of $x_1$ and $x_2$.
 \[
 x = 
 \begin{cases} 
@@ -262,6 +262,28 @@ Since $C(x)$, the center, is equally distant from both $A(x_1)$ and $B(x_2)$, we
 	\end{aligned}
 \end{equation*}
 
+\subsection{EXERCISE--3}
+\newthought{Find} the coordinate of the point on the number axis which is located twice as close to the point $A(-9)$ as to the point $B(-3)$.
+
+\newthought{Let} $C(x)$ be the point we need. Therefore $d(x, -9) = \frac{1}{2}d(x, -3)$. We note that on the number axis, $B(-3)$ is to the right of $A(-9)$; so, $C(x)$ cannot be to the right of $B(-3)$ because then we would have $d(x, -9) > d(x, -3)$. Hence $C(x)$ can possibly be between $A(-9)$ and $B(-3)$ or to the left of $A(-9)$. We consider these two cases below:
+\begin{enumerate}
+	\item On the number axis, from left to right, the order of the three points is: $A(-9), C(x), B(-3)$. We have the below two equations:
+	\begin{equation*}
+		\begin{aligned}
+			d(x, -9) + d(x, -3) &= d(-9, -3)\\
+			d(x, -9)            &= \frac{1}{2}d(x, -3)
+		\end{aligned}
+	\end{equation*}
+$x=-7$ is a solution to both equations; thus $C(-7)$ is a valid choice.
+	\item On the number axis, from left to right, the order of the three points is: $C(x), A(-9), B(-3)$. We have the below two equations:
+	\begin{equation*}
+		\begin{aligned}
+			d(x, -3) - d(x, -9) &= d(-9, -3)\\
+			d(x, -9)            &= \frac{1}{2}d(x, -3)
+		\end{aligned}
+	\end{equation*}
+$x = -15$ solves both equations, so $C(-12)$ is another valid choice.
+\end{enumerate}
 
 %\newthought{The pages} of a book are usually divided into three major sections: the front matter (also called preliminary matter or prelim), the main matter (the core text of the book), and the back matter (or end matter).
 %

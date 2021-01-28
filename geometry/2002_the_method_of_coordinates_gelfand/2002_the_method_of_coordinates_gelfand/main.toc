@@ -3,36 +3,37 @@
 \contentsline {section}{The Absolute Value of a Number}{9}{section*.6}%
 \contentsline {section}{The Distance Between Two Points}{10}{section*.7}%
 \contentsline {subsection}{EXERCISE--2}{10}{subsection*.8}%
-\contentsline {chapter}{On the Use of the tufte-book Document Class}{11}{chapter*.9}%
-\contentsline {section}{Page Layout}{11}{section*.10}%
-\contentsline {subsection}{Headings}{11}{subsection*.11}%
-\contentsline {section}{Sidenotes}{11}{section*.12}%
-\contentsline {section}{References}{12}{section*.13}%
-\contentsline {section}{Figures and Tables}{13}{section*.14}%
-\contentsline {section}{Captions}{15}{section*.15}%
-\contentsline {paragraph}{Vertical alignment}{15}{paragraph*.16}%
-\contentsline {paragraph}{Horizontal alignment}{15}{paragraph*.17}%
-\contentsline {section}{Full-width text blocks}{16}{section*.18}%
-\contentsline {section}{Typography}{16}{section*.19}%
-\contentsline {subsection}{Typefaces}{16}{subsection*.20}%
-\contentsline {subsection}{Letterspacing}{16}{subsection*.21}%
-\contentsline {section}{Document Class Options}{17}{section*.22}%
-\contentsline {chapter}{Customizing Tufte-LaTeX}{19}{chapter*.23}%
-\contentsline {section}{File Hooks}{19}{section*.24}%
-\contentsline {section}{Numbered Section Headings}{19}{section*.25}%
-\contentsline {section}{Changing the Paper Size}{20}{section*.26}%
-\contentsline {section}{Customizing Marginal Material}{20}{section*.27}%
-\contentsline {chapter}{Compatibility Issues}{23}{chapter*.28}%
-\contentsline {section}{Converting from \texttt {article} to \texttt {tufte-handout}}{23}{section*.29}%
-\contentsline {section}{Converting from \texttt {book} to \texttt {tufte-book}}{23}{section*.30}%
-\contentsline {chapter}{Troubleshooting and Support}{25}{chapter*.31}%
-\contentsline {section}{Tufte-\LaTeX \xspace Website}{25}{section*.32}%
-\contentsline {section}{Tufte-\LaTeX \xspace Mailing Lists}{25}{section*.33}%
-\contentsline {paragraph}{Discussion list}{25}{paragraph*.34}%
-\contentsline {paragraph}{Commits list}{25}{paragraph*.35}%
-\contentsline {section}{Getting Help}{25}{section*.36}%
-\contentsline {section}{Errors, Warnings, and Informational Messages}{26}{section*.37}%
-\contentsline {section}{Package Dependencies}{26}{section*.38}%
-\contentsline {chapter}{Bibliography}{29}{chapter*.39}%
-\contentsline {chapter}{Index}{31}{chapter*.40}%
+\contentsline {subsection}{EXERCISE--3}{10}{subsection*.9}%
+\contentsline {chapter}{On the Use of the tufte-book Document Class}{13}{chapter*.10}%
+\contentsline {section}{Page Layout}{13}{section*.11}%
+\contentsline {subsection}{Headings}{13}{subsection*.12}%
+\contentsline {section}{Sidenotes}{13}{section*.13}%
+\contentsline {section}{References}{14}{section*.14}%
+\contentsline {section}{Figures and Tables}{15}{section*.15}%
+\contentsline {section}{Captions}{17}{section*.16}%
+\contentsline {paragraph}{Vertical alignment}{17}{paragraph*.17}%
+\contentsline {paragraph}{Horizontal alignment}{17}{paragraph*.18}%
+\contentsline {section}{Full-width text blocks}{18}{section*.19}%
+\contentsline {section}{Typography}{18}{section*.20}%
+\contentsline {subsection}{Typefaces}{18}{subsection*.21}%
+\contentsline {subsection}{Letterspacing}{18}{subsection*.22}%
+\contentsline {section}{Document Class Options}{19}{section*.23}%
+\contentsline {chapter}{Customizing Tufte-LaTeX}{21}{chapter*.24}%
+\contentsline {section}{File Hooks}{21}{section*.25}%
+\contentsline {section}{Numbered Section Headings}{21}{section*.26}%
+\contentsline {section}{Changing the Paper Size}{22}{section*.27}%
+\contentsline {section}{Customizing Marginal Material}{22}{section*.28}%
+\contentsline {chapter}{Compatibility Issues}{25}{chapter*.29}%
+\contentsline {section}{Converting from \texttt {article} to \texttt {tufte-handout}}{25}{section*.30}%
+\contentsline {section}{Converting from \texttt {book} to \texttt {tufte-book}}{25}{section*.31}%
+\contentsline {chapter}{Troubleshooting and Support}{27}{chapter*.32}%
+\contentsline {section}{Tufte-\LaTeX \xspace Website}{27}{section*.33}%
+\contentsline {section}{Tufte-\LaTeX \xspace Mailing Lists}{27}{section*.34}%
+\contentsline {paragraph}{Discussion list}{27}{paragraph*.35}%
+\contentsline {paragraph}{Commits list}{27}{paragraph*.36}%
+\contentsline {section}{Getting Help}{27}{section*.37}%
+\contentsline {section}{Errors, Warnings, and Informational Messages}{28}{section*.38}%
+\contentsline {section}{Package Dependencies}{28}{section*.39}%
+\contentsline {chapter}{Bibliography}{31}{chapter*.40}%
+\contentsline {chapter}{Index}{33}{chapter*.41}%
 \contentsfinish 
