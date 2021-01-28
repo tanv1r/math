@@ -246,12 +246,15 @@ The equation thus have infinitely many solutions; all real numbers $x$ for which
 \subsection{EXERCISE--2}
 \newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the cooridinate of the center of the segment $AB$.
 
-\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$, therefore $\frac{d(A, B)}{2}$ to the smaller of $x_1$ and $x_2$.
+\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$, therefore $\frac{1}{2}d(A, B)$, to the smaller of $x_1$ and $x_2$.
 \[
-x = \begin{cases} x_2 + \frac{d(A, B)}{2} &\mbox{if } x_1-x_2 \geq 0 \\
-x_1 + \frac{d(A, B)}{2} & \mbox{if } x_1-x_2 < 0 \end{cases}
+x = 
+\begin{cases} 
+	x_2 + \frac{1}{2}d(A, B) &\mbox{if } x_1-x_2 \geq 0 \\
+	x_1 + \frac{1}{2}d(A, B) &\mbox{if } x_1-x_2 < 0 
+\end{cases}
 \]
-We can consolidate the above cases as follows:
+Since $C(x)$, the center, is equally distant from both $A(x_1)$ and $B(x_2)$, we can consolidate the above cases as follows:
 \begin{equation*}
 	\begin{aligned}
 		x &= x_1 + \frac{1}{2}(x_2 - x_1)\\
