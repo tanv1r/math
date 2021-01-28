@@ -1,0 +1,34 @@
+\contentsline {chapter}{The Coordinates of Points on a Line}{9}{chapter*.4}%
+\contentsline {chapter}{On the Use of the tufte-book Document Class}{11}{chapter*.5}%
+\contentsline {section}{Page Layout}{11}{section*.6}%
+\contentsline {subsection}{Headings}{11}{subsection*.7}%
+\contentsline {section}{Sidenotes}{11}{section*.8}%
+\contentsline {section}{References}{12}{section*.9}%
+\contentsline {section}{Figures and Tables}{13}{section*.10}%
+\contentsline {section}{Captions}{15}{section*.11}%
+\contentsline {paragraph}{Vertical alignment}{15}{paragraph*.12}%
+\contentsline {paragraph}{Horizontal alignment}{15}{paragraph*.13}%
+\contentsline {section}{Full-width text blocks}{16}{section*.14}%
+\contentsline {section}{Typography}{16}{section*.15}%
+\contentsline {subsection}{Typefaces}{16}{subsection*.16}%
+\contentsline {subsection}{Letterspacing}{16}{subsection*.17}%
+\contentsline {section}{Document Class Options}{17}{section*.18}%
+\contentsline {chapter}{Customizing Tufte-LaTeX}{19}{chapter*.19}%
+\contentsline {section}{File Hooks}{19}{section*.20}%
+\contentsline {section}{Numbered Section Headings}{19}{section*.21}%
+\contentsline {section}{Changing the Paper Size}{20}{section*.22}%
+\contentsline {section}{Customizing Marginal Material}{20}{section*.23}%
+\contentsline {chapter}{Compatibility Issues}{23}{chapter*.24}%
+\contentsline {section}{Converting from \texttt {article} to \texttt {tufte-handout}}{23}{section*.25}%
+\contentsline {section}{Converting from \texttt {book} to \texttt {tufte-book}}{23}{section*.26}%
+\contentsline {chapter}{Troubleshooting and Support}{25}{chapter*.27}%
+\contentsline {section}{Tufte-\LaTeX \xspace Website}{25}{section*.28}%
+\contentsline {section}{Tufte-\LaTeX \xspace Mailing Lists}{25}{section*.29}%
+\contentsline {paragraph}{Discussion list}{25}{paragraph*.30}%
+\contentsline {paragraph}{Commits list}{25}{paragraph*.31}%
+\contentsline {section}{Getting Help}{25}{section*.32}%
+\contentsline {section}{Errors, Warnings, and Informational Messages}{26}{section*.33}%
+\contentsline {section}{Package Dependencies}{26}{section*.34}%
+\contentsline {chapter}{Bibliography}{29}{chapter*.35}%
+\contentsline {chapter}{Index}{31}{chapter*.36}%
+\contentsfinish 
