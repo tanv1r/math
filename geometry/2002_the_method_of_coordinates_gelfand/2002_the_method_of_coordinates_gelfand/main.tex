@@ -27,6 +27,8 @@
 
 \hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
 
+\usepackage{amsmath}
+
 \usepackage{microtype} % Improves character and word spacing
 
 \usepackage{lipsum} % Inserts dummy text
@@ -239,6 +241,24 @@ Also, $A(a+1)$ cannot be to the right of the point $A(1)$, because then both $A(
 Therefore, $A(a+1)$ can be between $A(0)$ and $A(1)$, inclusive. In other words, $0 \leq a+1 \leq 1$, or $-1 \leq a \leq 0$. Since $a = x+1$, we have $-1 \leq x+1 \leq 0$, or $-2 \leq x \leq -1$.
 
 The equation thus have infinitely many solutions; all real numbers $x$ for which $-2 \leq x \leq -1$ holds, are solutions.
+
+\section{The Distance Between Two Points}
+\subsection{EXERCISE--2}
+\newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the cooridinate of the center of the segment $AB$.
+
+\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$, therefore $\frac{d(A, B)}{2}$ to the smaller of $x_1$ and $x_2$.
+\[
+x = \begin{cases} x_2 + \frac{d(A, B)}{2} &\mbox{if } x_1-x_2 \geq 0 \\
+x_1 + \frac{d(A, B)}{2} & \mbox{if } x_1-x_2 < 0 \end{cases}
+\]
+We can consolidate the above cases as follows:
+\begin{equation*}
+	\begin{aligned}
+		x &= x_1 + \frac{1}{2}(x_2 - x_1)\\
+		  &= \frac{x_1 + x_2}{2}
+	\end{aligned}
+\end{equation*}
+
 
 %\newthought{The pages} of a book are usually divided into three major sections: the front matter (also called preliminary matter or prelim), the main matter (the core text of the book), and the back matter (or end matter).
 %

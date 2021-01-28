@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  28 JAN 2021 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.5)  28 JAN 2021 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -453,21 +453,79 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 )))
 Package hyperref Info: Option `colorlinks' set `true' on input line 28.
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip92
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen165
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box95
+\strutbox@=\box96
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks22
+\multlinegap=\skip93
+\multlinetaggap=\skip94
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks19
-\MT@count=\count273
+\MT@toks=\toks24
+\MT@count=\count285
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen165
+\MT@outer@kern=\dimen174
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count274
+\MT@listname@count=\count286
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip92
+\MT@outer@space=\skip95
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -480,15 +538,15 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count275
-\l__pdf_internal_box=\box95
+\l__kernel_color_stack_int=\count287
+\l__pdf_internal_box=\box97
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count276
-\g__xparse_grabber_int=\count277
-\l__xparse_m_args_int=\count278
-\l__xparse_v_nesting_int=\count279
+\l__xparse_current_arg_int=\count288
+\g__xparse_grabber_int=\count289
+\l__xparse_m_args_int=\count290
+\l__xparse_v_nesting_int=\count291
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -497,23 +555,23 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
-\@cmidla=\count280
-\@cmidlb=\count281
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
-\@thisruleclass=\count282
-\@lastruleclass=\count283
-\@thisrulewidth=\dimen178
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count292
+\@cmidlb=\count293
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count294
+\@lastruleclass=\count295
+\@thisrulewidth=\dimen187
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -529,16 +587,16 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen179
-\Gin@req@width=\dimen180
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count284
+\FV@CodeLineNo=\count296
 \FV@InFile=\read2
-\FV@TabBox=\box96
-\c@FancyVerbLine=\count285
-\FV@StepNumber=\count286
+\FV@TabBox=\box98
+\c@FancyVerbLine=\count297
+\FV@StepNumber=\count298
 \FV@OutFile=\write3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
@@ -549,9 +607,9 @@ Package: units 1998/08/04 v0.9b Typesetting units
 
 (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip93
-\L@UnitsRaiseTextstyle=\skip94
-\L@UnitsRaiseScriptstyle=\skip95
+\L@UnitsRaiseDisplaystyle=\skip96
+\L@UnitsRaiseTextstyle=\skip97
+\L@UnitsRaiseScriptstyle=\skip98
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -563,35 +621,35 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 Writing index file main.idx
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 130.
+(hyperref)                removing `\\' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 130.
+(hyperref)                removing `\\' on input line 132.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-\AtBeginShipoutBox=\box97
-Package hyperref Info: Link coloring ON on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+\AtBeginShipoutBox=\box99
+Package hyperref Info: Link coloring ON on input line 140.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -601,18 +659,18 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count287
+\c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 138.
-LaTeX Info: Redefining \pageref on input line 138.
-LaTeX Info: Redefining \nameref on input line 138.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 138.
+LaTeX Info: Redefining \selectfont on input line 140.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -648,35 +706,33 @@ LaTeX Info: Redefining \selectfont on input line 138.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 138.
+LaTeX Info: Redefining \microtypecontext on input line 140.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 138.
+LaTeX Info: Redefining \showhyphens on input line 140.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-\big@size=\dimen181
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen182
-\scratchbox=\box98
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen183
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count300
+\scratchdimen=\dimen190
+\scratchbox=\box100
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen191
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -687,46 +743,46 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 14
-2.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 142.
+(Font)              scaled to size 8.99994pt on input line 144.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 142.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 142.
+(Font)              scaled to size 16.19989pt on input line 144.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 144.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-142.
+144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-142.
+144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-142.
+144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-142.
+144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-142.
+144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -736,11 +792,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 142.
-LaTeX Font Info:    Calculating math sizes for size <36> on input line 142.
+(Font)              scaled to size 32.39978pt on input line 144.
+LaTeX Font Info:    Calculating math sizes for size <36> on input line 144.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 142.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 142.
+(Font)              scaled to size 12.59991pt on input line 144.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 144.
  [1
 
 
@@ -786,18 +842,18 @@ LaTeX Warning: Marginpar on page 9 moved.
 [9
 
 ]
-Overfull \hbox (0.10315pt too wide) in paragraph at lines 241--242
+Overfull \hbox (0.10315pt too wide) in paragraph at lines 243--244
 []\T1/pplj/m/n/10 (+14) The equation thus have infinitely many solutions; all r
 eal numbers 
  []
 
 [10]
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <20.74> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 430.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 450.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 17.62912pt on input line 430.
+(Font)              scaled to size 17.62912pt on input line 450.
 
-Overfull \hbox (1.14023pt too wide) in paragraph at lines 439--440
+Overfull \hbox (1.14023pt too wide) in paragraph at lines 459--460
 \T1/pplj/m/n/10 (-20) This style pro-vides \T1/pplj/m/sc/10/50ls (-20) a\T1/ppl
 j/m/n/10 (-20) - and \T1/pplj/m/sc/10/50ls (-20) b\T1/pplj/m/n/10 (-20) -heads 
 (that is, [] and []), 
@@ -810,9 +866,9 @@ LaTeX Warning: Marginpar on page 11 moved.
 LaTeX Warning: Marginpar on page 11 moved.
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 446.
+(Font)              scaled to size 7.65005pt on input line 466.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 453.
+(Font)              scaled to size 6.80005pt on input line 473.
 
 LaTeX Warning: Marginpar on page 11 moved.
 
@@ -829,58 +885,58 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.Tufte200
 6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.491 ...ite[-3\baselineskip]{Tufte2006,Tufte1990}
+l.511 ...ite[-3\baselineskip]{Tufte2006,Tufte1990}
                                                    you can provide a list of...
 
 LaTeX Warning: Marginpar on page 12 moved.
 
 [12]
-<graphics/helix.pdf, id=214, 221.8689pt x 201.71361pt>
+<graphics/helix.pdf, id=221, 221.8689pt x 201.71361pt>
 File: graphics/helix.pdf Graphic file (type pdf)
 <use graphics/helix.pdf>
-Package pdftex.def Info: graphics/helix.pdf  used on input line 504.
+Package pdftex.def Info: graphics/helix.pdf  used on input line 524.
 (pdftex.def)             Requested size: 144.00317pt x 130.92145pt.
-<graphics/sine.pdf, id=219, 505.89pt x 51.04068pt>
+<graphics/sine.pdf, id=226, 505.89pt x 51.04068pt>
 File: graphics/sine.pdf Graphic file (type pdf)
 <use graphics/sine.pdf>
-Package pdftex.def Info: graphics/sine.pdf  used on input line 531.
+Package pdftex.def Info: graphics/sine.pdf  used on input line 551.
 (pdftex.def)             Requested size: 480.0061pt x 48.42917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--535
+Underfull \hbox (badness 10000) in paragraph at lines 551--555
 
  []
 
-<graphics/hilbertcurves.pdf, id=220, 308.47346pt x 76.72565pt>
+<graphics/hilbertcurves.pdf, id=227, 308.47346pt x 76.72565pt>
 File: graphics/hilbertcurves.pdf Graphic file (type pdf)
 <use graphics/hilbertcurves.pdf>
-Package pdftex.def Info: graphics/hilbertcurves.pdf  used on input line 538.
+Package pdftex.def Info: graphics/hilbertcurves.pdf  used on input line 558.
 (pdftex.def)             Requested size: 312.0029pt x 77.6035pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--541
+Underfull \hbox (badness 10000) in paragraph at lines 558--561
 
  []
 
 [13 <./graphics/helix.pdf> <./graphics/sine.pdf> <./graphics/hilbertcurves.pdf>
 ]
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 56
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 58
 0.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-Overfull \hbox (1.72046pt too wide) in paragraph at lines 582--583
+Overfull \hbox (1.72046pt too wide) in paragraph at lines 602--603
 \T1/pplj/m/n/10 (-20) this lim-i-ta-tion, the Tufte-L[]T[]X doc-u-ment classes 
 pro-vide a []\T1/fvm/m/n/10 \morefloats[][] 
  []
 
 [14] [15]
-Overfull \hbox (0.12396pt too wide) in paragraph at lines 654--654
+Overfull \hbox (0.12396pt too wide) in paragraph at lines 674--674
 []\T1/pplj/m/it/9 (+1) Lorem ipsum dolor sit amet, consectetuer adipiscing elit
 . Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur
  
  []
 
 
-Overfull \hbox (0.19374pt too wide) in paragraph at lines 654--654
+Overfull \hbox (0.19374pt too wide) in paragraph at lines 674--674
 \T1/pplj/m/it/9 (+8) malesuada eu, pulvinar at, mollis ac, nulla. Curabitur auc
 tor semper nulla. Donec varius orci eget risus. Duis nibh mi, congue eu, 
  []
@@ -889,16 +945,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.Bringhur
 st2005}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.666 ... increased slightly.\cite{Bringhurst2005}
+l.686 ... increased slightly.\cite{Bringhurst2005}
                                                    The \doccmddef{allcaps} c...
 
 LaTeX Warning: Marginpar on page 16 moved.
 
 [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 721.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 741.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.50006pt on input line 721.
+(Font)              scaled to size 8.50006pt on input line 741.
  [19
 
 ]
@@ -906,7 +962,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 LaTeX Warning: Marginpar on page 20 moved.
 
 [20]
-Overfull \hbox (27.92421pt too wide) in paragraph at lines 791--793
+Overfull \hbox (27.92421pt too wide) in paragraph at lines 811--813
 []\T1/fvm/m/n/9 \documentclass[symmetric,justified,marginals=raggedouter]{tufte
 -book}  
  []
@@ -915,14 +971,14 @@ Overfull \hbox (27.92421pt too wide) in paragraph at lines 791--793
 
 ]
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 823.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 843.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 10.20007pt on input line 823.
+(Font)              scaled to size 10.20007pt on input line 843.
  [23] [24
 
 ] [25] [26]
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-896.
+916.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
@@ -957,25 +1013,25 @@ l.38 \bibitem[Umeki(2008)]{pkg-geometry}
 ] [30
 
 ] [31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 938.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 958.
  [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 938.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 958.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 938.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 938.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 958.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 958.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CD0C779B3D3A4C9ED13DA29FC5334034;4668.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 938.
+(rerunfilecheck)             Checksum: 8B269FD823E434EBA870DEE467C9F929;4891.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 958.
  ) 
 Here is how much of TeX's memory you used:
- 15434 strings out of 481239
- 235322 string characters out of 5920378
- 808901 words of memory out of 5000000
- 29887 multiletter control sequences out of 15000+600000
- 671806 words of font info for 470 fonts, out of 8000000 for 9000
+ 16043 strings out of 481239
+ 242209 string characters out of 5920378
+ 819818 words of memory out of 5000000
+ 30471 multiletter control sequences out of 15000+600000
+ 674080 words of font info for 477 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,14n,58p,710b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,14n,58p,710b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{page.36} has been referenced but does not exist, 
 replaced by a fixed one
 
@@ -986,19 +1042,21 @@ pdfTeX warning (dest): name{page.33} has been referenced but does not exist, re
 placed by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/f
-plrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 183404 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/
+fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
+latino/uplri8a.pfb>
+Output written on main.pdf (32 pages, 199244 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 85 named destinations out of 1000 (max. 500000)
- 104176 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 104184 words of extra memory for PDF output out of 106986 (max. 10000000)
 
