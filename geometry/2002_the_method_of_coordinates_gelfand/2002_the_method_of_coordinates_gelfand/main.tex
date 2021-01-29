@@ -28,6 +28,10 @@
 \hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
 
 \usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\usepackage{pgfplots}
 
 \usepackage{microtype} % Improves character and word spacing
 
@@ -246,21 +250,108 @@ The equation thus have infinitely many solutions; all real numbers $x$ for which
 \subsection{EXERCISE--2}
 \newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the coordinate of the center of the segment $AB$.
 
-\newthought{Let} $C(x)$ be the center. We can find $x$ by adding half of the distance between $A(x_1)$ and $B(x_2)$ aka $\frac{1}{2}d(A, B)$, to the smaller of $x_1$ and $x_2$.
+\newthought{Let} $C(x)$ be the center. We shall consider the six possible cases separately and then try to generalize.
+\begin{enumerate}
+	\item $A(x_1)$ is to the left of $B(x_2)$. Here we have three different sub-cases.
+			
+				\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"Origin","$A(x_1)$","","$B(x_2)$"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"$A(x_1)$","Origin","","$B(x_2)$"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"$A(x_1)$","","$B(x_2)$","Origin"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+Here we have:
 \[
-x = 
-\begin{cases} 
-	x_2 + \frac{1}{2}d(A, B) &\mbox{if } x_1-x_2 \geq 0 \\
-	x_1 + \frac{1}{2}d(A, B) &\mbox{if } x_1-x_2 < 0 
-\end{cases}
+	x = x_1 + \frac{x_2 - x_1}{2} = \frac{x_1 + x_2}{2}
 \]
-Since $C(x)$, the center, is equally distant from both $A(x_1)$ and $B(x_2)$, we can consolidate the above cases as follows:
-\begin{equation*}
-	\begin{aligned}
-		x &= x_1 + \frac{1}{2}(x_2 - x_1)\\
-		  &= \frac{x_1 + x_2}{2}
-	\end{aligned}
-\end{equation*}
+
+\item $B(x_2)$ is to the left of $A(x_1)$. Again, we have three sub-cases:
+
+				\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"Origin","$B(x_2)$","","$A(x_1)$"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"$B(x_2)$","Origin","","$A(x_1)$"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.75]
+\def\labelz{{"$B(x_2)$","","$A(x_1)$","Origin"}}
+\draw [->,>=triangle 45] (0,0) -- (10,0);
+\foreach \x in {1,...,4} {%
+        \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
+        \node [align=center,text width=22mm] at (2*\x,1){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\end{tikzpicture}
+
+Here we have:
+\[
+	x = x_2 + \frac{x_1 - x_2}{2} = \frac{x_1 + x_2}{2}
+\]
+\end{enumerate}
+
+So, the coordinate of the center is $\frac{x_1 + x_2}{2}$.
+
+%\begin{tikzpicture}[scale=1.0]
+%%\draw[very thick] (1,0) -- (2,0);
+%\path [draw=black, fill=black] (1,0) circle (2pt);
+%\path [draw=black, fill=white, thick] (2,0.0) circle (2pt);
+%\draw[latex-latex] (-3.5,0) -- (3.5,0) ;
+%\foreach \x in  {-3,-2,-1,0,1,2,3}
+%\draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
+%\foreach \x in {-3,-2,-1,0,1,2,3}
+%\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
+%{$\x$};
+%\end{tikzpicture}
+%    \begin{tikzpicture}
+%        \begin{axis}[
+%            % center the x axis
+%            axis x line=middle,
+%            % we don't need a y axis line ...
+%            axis y line=none,
+%            % ... and thus there is no need for much `height' of the axis
+%            height=50pt,
+%            % but `height' also changes `width' which is restored here
+%            width=\axisdefaultwidth,
+%            xmin=-3,
+%            xmax=3,
+%        ]
+%            \addplot coordinates {
+%                (0.5,0) (1.5,0) (2.5,0)
+%            };
+%        \end{axis}
+%    \end{tikzpicture}
 
 \subsection{EXERCISE--3}
 \newthought{Find} the coordinate of the point on the number axis which is located twice as close to the point $A(-9)$ as to the point $B(-3)$.
