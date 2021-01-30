@@ -228,6 +228,7 @@ When we use a number axis to specify the position or coordinate of a point, we a
 	\item What is a point?
 \end{enumerate}
 
+\newpage
 \section{The Absolute Value of a Number}
 
 \subsection*{EXERCISE--5(b)}
@@ -246,62 +247,88 @@ Therefore, $A(a+1)$ can be between $A(0)$ and $A(1)$, inclusive. In other words,
 
 The equation thus have infinitely many solutions; all real numbers $x$ for which $-2 \leq x \leq -1$ holds, are solutions.
 
+\newpage
 \section{The Distance Between Two Points}
 \subsection{EXERCISE--2}
 \newthought{On a number axis} two points $A(x_1)$ and $B(x_2)$ are given. Find the coordinate of the center of the segment $AB$.
 
 \newthought{Let} $C(x)$ be the center. We shall consider the six possible cases separately and then try to generalize.
 \begin{enumerate}
-	\item $A(x_1)$ is to the left of $B(x_2)$. Here we have three different sub-cases.\footnote{\begin{tikzpicture}[scale=0.5]
+	\item $A(x_1)$ is to the left of $B(x_2)$. Here we have three different sub-cases. 
+\break
+For sub-case \footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"Origin","$A(x_1)$","","$B(x_2)$"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
 }
-\end{tikzpicture}}\footnote{\begin{tikzpicture}[scale=0.5]
+\end{tikzpicture}}, 
+\[d(A, B) = d(B, Origin) - d(A, Origin) = (x_2-0) - (x_1-0) = x_2 - x_1\]
+For sub-case \footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"$A(x_1)$","Origin","","$B(x_2)$"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
 }
-\end{tikzpicture}}\footnote{\begin{tikzpicture}[scale=0.5]
+\end{tikzpicture}}, 
+\[
+	d(A, B) = d(B, Origin) + d(A, Origin) = (x_2-0)+(0-x_1) = x_2-x_1
+\]
+For sub-case \footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"$A(x_1)$","","$B(x_2)$","Origin"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
 }
-\end{tikzpicture}} For all three sub-cases we have:
+\end{tikzpicture}},
 \[
-	x = x_1 + \frac{x_2 - x_1}{2} = \frac{x_1 + x_2}{2}
+	d(A, B) = d(A, Origin) - d(B, Origin) = (0-x_1) - (0-x_2) = x_2-x_1
 \]
+Hence, for the sub-cases, $2$, $3$, and $4$ we have:
+\[
+	x = x_1 + \frac{1}{2}d(A, B) = x_1 + \frac{x_2 - x_1}{2} = \frac{x_1 + x_2}{2}
+\]
+\item $B(x_2)$ is to the left of $A(x_1)$. Again, we have three sub-cases.
 \break
-\item $B(x_2)$ is to the left of $A(x_1)$. Again, we have three sub-cases.\footnote{\begin{tikzpicture}[scale=0.5]
+For sub-case \footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"Origin","$B(x_2)$","","$A(x_1)$"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
 }
-\end{tikzpicture}}\footnote{\begin{tikzpicture}[scale=0.5]
+\end{tikzpicture}}
+\[
+	d(A, B) = d(A, Origin) - d(B, Origin) = (x_1 - 0) + (x_2-0) = x_1-x_2
+\]
+For sub-case \footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"$B(x_2)$","Origin","","$A(x_1)$"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
 }
-\end{tikzpicture}}\footnote{\begin{tikzpicture}[scale=0.5]
+\end{tikzpicture}}
+\[
+	d(A, B) = d(B, Origin)+d(A, Origin) = (0-x_2)+(x_1-0) = x_1-x_2
+\]
+For sub-case 
+\footnote{\begin{tikzpicture}[scale=0.5]
 \def\labelz{{"$B(x_2)$","","$A(x_1)$","Origin"}}
 \draw [->,>=triangle 45] (0,0) -- (10,0);
 \foreach \x in {1,...,4} {%
         \draw [-,>=stealth] (2*\x,-.2) -- (2*\x,.2);
         \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
-}
-\end{tikzpicture}} For these three sub-cases, we have:
+}\end{tikzpicture}}
 \[
-	x = x_2 + \frac{x_1 - x_2}{2} = \frac{x_1 + x_2}{2}
+	d(A, B) = d(B, Origin) - d(A, Origin) = (0-x_2)-(0-x_1) = x_1-x_2
+\]
+Hence, for the sub-cases $5$, $6$, and $7$, we have:
+\[
+	x = x_2 + \frac{1}{2}d(A, B) = x_2 + \frac{x_1 - x_2}{2} = \frac{x_1 + x_2}{2}
 \]
 \end{enumerate}
 \break

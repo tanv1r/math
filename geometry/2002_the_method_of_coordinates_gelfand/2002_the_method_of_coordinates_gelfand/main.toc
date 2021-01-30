@@ -1,9 +1,9 @@
 \contentsline {chapter}{The Coordinates of Points on a Line}{9}{chapter*.4}%
 \contentsline {section}{The Number Axis}{9}{section*.5}%
-\contentsline {section}{The Absolute Value of a Number}{9}{section*.6}%
-\contentsline {section}{The Distance Between Two Points}{10}{section*.7}%
-\contentsline {subsection}{EXERCISE--2}{10}{subsection*.8}%
-\contentsline {subsection}{EXERCISE--3}{11}{subsection*.9}%
+\contentsline {section}{The Absolute Value of a Number}{10}{section*.6}%
+\contentsline {section}{The Distance Between Two Points}{11}{section*.7}%
+\contentsline {subsection}{EXERCISE--2}{11}{subsection*.8}%
+\contentsline {subsection}{EXERCISE--3}{12}{subsection*.9}%
 \contentsline {chapter}{On the Use of the tufte-book Document Class}{13}{chapter*.10}%
 \contentsline {section}{Page Layout}{13}{section*.11}%
 \contentsline {subsection}{Headings}{13}{subsection*.12}%
