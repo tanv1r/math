@@ -367,9 +367,30 @@ So, in all cases, the coordinate of the center is $\frac{x_1 + x_2}{2}$.
 \subsection{EXERCISE--3}
 \newthought{Find} the coordinate of the point on the number axis which is located twice as close to the point $A(-9)$ as to the point $B(-3)$.
 
-\newthought{Let} $C(x)$ be the point we need. Therefore $d(x, -9) = \frac{1}{2}d(x, -3)$. We note that on the number axis, $B(-3)$ is to the right of $A(-9)$; so, $C(x)$ cannot be to the right of $B(-3)$ because then we would have $d(x, -9) > d(x, -3)$. Hence $C(x)$ can possibly be between $A(-9)$ and $B(-3)$ or to the left of $A(-9)$. We consider these two cases below:
+\newthought{Let} $C(x)$ be the point we need. Therefore $d(x, -9) = \frac{1}{2}d(x, -3)$. We note that on the number axis, $B(-3)$ is to the right of $A(-9)$\footnote{\begin{tikzpicture}[scale=0.5]
+\def\labelz{{"$A(-9)$", "", "$B(-3)$", "", "Origin"}}
+\draw [->,>=triangle 45] (0,0) -- (12,0);
+\foreach \x in {1,...,5} {%
+        %\draw [-,>=stealth] (2*\x,-.1) -- (2*\x,.1);
+        \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\draw [-,>=stealth] (2*1,-.1) -- (2*1,.2);
+\draw [-,>=stealth] (2*3,-.1) -- (2*3,.2);
+\draw [-,>=stealth] (2*5,-.1) -- (2*5,.2);
+\end{tikzpicture}}; so, $C(x)$ cannot be to the right of $B(-3)$ because then we would have $d(x, -9) > d(x, -3)$. Hence $C(x)$ can possibly be between $A(-9)$ and $B(-3)$ or to the left of $A(-9)$. We consider these two cases below:
 \begin{enumerate}
-	\item On the number axis, from left to right, the order of the three points is: $A(-9), C(x), B(-3)$. We have the below two equations:
+	\item On the number axis, from left to right, the order of the three points is: $A(-9), C(x), B(-3)$\footnote{\begin{tikzpicture}[scale=0.5]
+\def\labelz{{"$A(-9)$", "$C(x)$", "", "$B(-3)$", "Origin"}}
+\draw [->,>=triangle 45] (0,0) -- (12,0);
+\foreach \x in {1,...,5} {%
+        %\draw [-,>=stealth] (2*\x,-.1) -- (2*\x,.1);
+        \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\draw [-,>=stealth] (2*1,-.1) -- (2*1,.2);
+\draw [-,>=stealth] (2*2,-.1) -- (2*2,.2);
+\draw [-,>=stealth] (2*4,-.1) -- (2*4,.2);
+\draw [-,>=stealth] (2*5,-.1) -- (2*5,.2);
+\end{tikzpicture}}. We have the below two equations:
 	\begin{equation*}
 		\begin{aligned}
 			d(x, -9) + d(x, -3) &= d(-9, -3)\\
@@ -377,7 +398,18 @@ So, in all cases, the coordinate of the center is $\frac{x_1 + x_2}{2}$.
 		\end{aligned}
 	\end{equation*}
 $x=-7$ is the unique solution to both equations; thus $C(-7)$ is the only valid choice between $A(-9)$ and $B(-3)$.
-	\item On the number axis, from left to right, the order of the three points is: $C(x), A(-9), B(-3)$. We have the below two equations:
+	\item On the number axis, from left to right, the order of the three points is: $C(x), A(-9), B(-3)$\footnote{\begin{tikzpicture}[scale=0.5]
+\def\labelz{{"$C(x)$", "$A(-9)$", "", "$B(-3)$", "Origin"}}
+\draw [->,>=triangle 45] (0,0) -- (12,0);
+\foreach \x in {1,...,5} {%
+        %\draw [-,>=stealth] (2*\x,-.1) -- (2*\x,.1);
+        \node [align=center,text width=22mm] at (2*\x,0.5){\pgfmathparse{\labelz[\x-1]}\pgfmathresult};
+}
+\draw [-,>=stealth] (2*1,-.1) -- (2*1,.2);
+\draw [-,>=stealth] (2*2,-.1) -- (2*2,.2);
+\draw [-,>=stealth] (2*4,-.1) -- (2*4,.2);
+\draw [-,>=stealth] (2*5,-.1) -- (2*5,.2);
+\end{tikzpicture}}. We have the below two equations:
 	\begin{equation*}
 		\begin{aligned}
 			d(x, -3) - d(x, -9) &= d(-9, -3)\\
